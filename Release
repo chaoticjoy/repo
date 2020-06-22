@@ -1,9 +1,9 @@
-Origin: 小卒过河就是車的自用源
+Origin: 小卒的自用源
 Label: xiaozu
 Suite: stable
 Version: 1.0
 Codename: xiaozu
 Architectures: iphoneos-arm
 Components: main
-Description: 小卒过河就是車的自用源
+Description: 包括小卒备份的插件及对应版本的ipa
 
