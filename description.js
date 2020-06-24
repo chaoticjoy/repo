@@ -20,20 +20,14 @@ function toogleTheme()
 	localStorage.setItem('Theme', themeNew);
 	window.location.reload(false);
 }
-$(function() {
-  $("li").on("click",function() {
-	  if(this.id=="dnt") {
-		  $("#dnt_txt").html("You can donate USD via PayPal mail: julioverne"+"@"+"icloud.com");
-	  }
-  });
-});
+
 function loadPackageInfo() {
 	var urlSelfParts = window.location.href.split('description.html?id=');
 	var current_url_path = window.location.href.slice(0, window.location.href.lastIndexOf('/'));
 	var form_url = current_url_path+"/packageInfo/"+urlSelfParts[1];
 	if (navigator.userAgent.search(/Cydia/) == -1) {
 		$("#showAddRepo_").show();
-		$("#open_cydia").attr("href","cydia://url/https://cydia.saurik.com/api/share#?source=https://julioverne.github.io/&package="+urlSelfParts[1]);
+		$("#open_cydia").attr("href","cydia://url/https://cydia.saurik.com/api/share#?source=https://chaoticjoy.github.io/repo/&package="+urlSelfParts[1]);
 	}
 	$.ajax({
 		url: form_url,
