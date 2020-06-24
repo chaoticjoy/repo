@@ -3,7 +3,9 @@ Label: xiaozu
 Suite: stable
 Version: 1.0
 Codename: xiaozu
-Architectures: iphoneos-arm
+Architecture: iphoneos-arm
 Components: main
 Description: 包括小卒备份的插件及对应版本的ipa
-
+MD5Sum:
+ ba2e839f753f2de1e9c6828df6e9820b 67747 Packages
+ 4f923b77db857631254564827b02aaf0 20983 Packages.bz2
