@@ -21,12 +21,6 @@ function toogleTheme()
 	window.location.reload(false);
 }
 
-$(function() {
-  $('img').error(function(){
-            $(this).attr('srcset', "Tweaks.png");
-         });
-});
-
 function loadPackageInfo() {
 	var urlSelfParts = window.location.href.split('description.html?id=');
 	var current_url_path = window.location.href.slice(0, window.location.href.lastIndexOf('/'));
