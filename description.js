@@ -23,7 +23,7 @@ function toogleTheme()
 
 $(function() {
   $('img').error(function(){
-            $(this).attr('src', "Tweaks.png");
+            $(this).attr('srcset', "Tweaks.png");
          });
 });
 
