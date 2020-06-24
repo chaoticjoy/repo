@@ -23,7 +23,7 @@ function toogleTheme()
 
 $(function() {
   $('img').error(function(){
-            $(this).attr('src', "default.jpg(默认图片的url地址)");
+            $(this).attr('src', "Tweaks.png");
          });
 });
 
