@@ -87,7 +87,7 @@ var packagesSection = {};
 function openSection(sectionName)
 {
 	var sectionContent = "";
-	sectionContent += "<li class=\"has-icon\"><a onclick=\"loadMainSection()\" role=\"button\"><img style=\"border-radius: 20%;\" href=\"back.png\" alt=\"\" srcset=\"back.png 2x, back.png 3x\" class=\"icon\"/><label><< Back</label></a></li>";
+	sectionContent += "<li class=\"has-icon\"><a onclick=\"loadMainSection()\" role=\"button\"><img style=\"border-radius: 20%;\" href=\"images/back.png\" alt=\"\" srcset=\"images/back.png 2x, images/back.png 3x\" class=\"icon\"/><label><< Back</label></a></li>";
 	for (var keyNow in packagesSection[sectionName]) {
 		var dicNow = packagesSection[sectionName][keyNow];
 		var urlOpen = "cydia://package/"+dicNow.package;
