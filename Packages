@@ -647,22 +647,6 @@ Description: 电源多功能定义助手・Power multifunction definition assist
 Name: Power Helper
 Author: iBreak <ibreak2019@qq.com>
 
-Package: com.yourepo.ibreak.theos
-Architecture: iphoneos-arm
-Version: 2.5
-Section: Development
-Maintainer: iBreak <ibreak2019@qq.com>
-Depends: mobilesubstrate
-Filename: ./debs/com.yourepo.ibreak.theos_2.5_iphoneos-arm.deb
-Size: 6942876
-MD5sum: 341532d9140b1c03746e8371260ddb15
-SHA1: e3daaaecfbf1ca79fabd266174b69cfbfe7fa6ac
-SHA256: 5c007c8bd8e35107564f2fc0216e7b5d2f40118105bbdba817a9203ce8908e43
-SHA512: 53777db597ba03637fab0e4245f6850b0cd1a22376b5120acbe38c46254e2cf1c37da9cbb80efab0f030d5ccf5550ee431966d7ffe3c425c47c43c89971291ba
-Description: Theos Automated Compilation Development Tool
-Name: Theos
-Author: iBreak <ibreak2019@qq.com>
-
 Package: com.yourepo.ibreak.videohelper
 Architecture: iphoneos-arm
 Version: 3.0
@@ -693,22 +677,6 @@ SHA256: 97351a9af9eac3605517bbbbc2c86125a4b4971a9196ca99866804e6efb5800f
 SHA512: 19c04740454397900477f4a3ffd7574e1815933f6b0e8ac8b6a8e75389f17014c2bdc0f0e0d97943fb1480a2f39f3b58d3123786120938ec0b37822468977e8e
 Description: 开启微信 Callkit 通话功能・Open the Callkit Call Function of Wechat
 Name: WeChat CallKit
-Author: iBreak <ibreak2019@qq.com>
-
-Package: com.yourepo.ibreak.wechathelper
-Architecture: iphoneos-arm
-Version: 3.1.1
-Section: Tweaks
-Maintainer: iBreak <ibreak2019@qq.com>
-Depends: mobilesubstrate,preferenceloader
-Filename: ./debs/com.yourepo.ibreak.wechathelper_3.1.1_iphoneos-arm.deb
-Size: 188402
-MD5sum: d427342776239bbf3d6f93e20df31f52
-SHA1: 84c3f8f5dc9effec1a0cfc39e9620f1710eccdab
-SHA256: 6d73482a5212d665616fbfbc7815e834c10c692793868a8296879290b8723276
-SHA512: 704b629a41c67da6c29a543c340ee314a37261ef54032f03890ba363e35ce679b64037b130c44414ffdc86eec05e13c773764339f340709f77205a97bbd9fe6e
-Description: 微信多功能定义助手・Wechat Multifunctional Definition Assistant
-Name: WeChat Helper
 Author: iBreak <ibreak2019@qq.com>
 
 Package: com.yourepo.ibreak.wechathelper
@@ -766,50 +734,6 @@ SileoDepiction: https://ios.jjolano.me/depiction/native/me.jjolano.shadow.json
 ModernDepiction: https://ios.jjolano.me/depiction/native/me.jjolano.shadow.json
 Icon: https://ios.jjolano.me/assets/me.jjolano.shadow/icon.png
 Author: jjolano <jjolano@me.com>
-
-Package: net.angelxwind.appsyncunified
-Architecture: iphoneos-arm
-Version: 76.0
-Section: Tweaks
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Installed-Size: 496
-Provides: appsync
-Depends: firmware (>= 5.0), firmware (<= 13.5), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
-Replaces: us.hackulo.appsync50
-Filename: ./debs/net.angelxwind.appsyncunified_76.0_iphoneos-arm.deb
-Size: 63752
-MD5sum: cdfdd0cd65796cba468140ddcde17887
-SHA1: 6918aacd524c710190bd85d4fa27452305737fbb
-SHA256: 8e801cce33ccaa23ee2eca885b722f190702b47ed1d132db85ea3aee4933cc05
-SHA512: 7bb97e9b31e037ae88e7751011cea38cbcc9bdbbde0d4b391b0db3870fac5179fcd92ca067c25684b436d16d4b5aa0f6fd1d6da404d6d7d0ae80c837df9e9be4
-Homepage: https://cydia.akemi.ai/
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
-Name: AppSync Unified
-Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
-
-Package: net.angelxwind.appsyncunified
-Architecture: iphoneos-arm
-Version: 78.0
-Section: Tweaks
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Installed-Size: 496
-Provides: appsync
-Depends: firmware (>= 5.0), firmware (<= 13.5.5), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
-Replaces: us.hackulo.appsync50
-Filename: ./debs/net.angelxwind.appsyncunified_78.0_iphoneos-arm.deb
-Size: 42058
-MD5sum: 5098f8c593596ca10b594f5d42caa9b3
-SHA1: d469ecba2f366de4be438451fb604cbe450bc420
-SHA256: 94374dc7924e412a13a3c82104f18c04eac3faff0606aa1bb4859c2532df6a07
-SHA512: 9acd7509018a3d7e8571c8c2fffb3eb7d33969bd74c96dbd79212c1a68a2cf9f75b027f24b8687d5e10950579943d48bab3024826729f003d654b34f09a0dc18
-Homepage: https://cydia.akemi.ai/
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
-Name: AppSync Unified
-Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
 
 Package: net.angelxwind.appsyncunified
 Architecture: iphoneos-arm
