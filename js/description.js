@@ -95,7 +95,7 @@ function openSection(sectionName)
 			var current_url_path = window.location.href.slice(0, window.location.href.lastIndexOf('/'));
 			urlOpen = current_url_path+"/description.html?id="+dicNow.package;
 		}		
-		sectionContent +=  "<li class=\"has-icon\"><a href='"+urlOpen+"' target='_blank' role=\"button\"><img style=\"border-radius: 20%;\" href=\"images\/"+encodeURI(sectionName)+".png\" alt=\"\" srcset=\"images\/"+encodeURI(sectionName)+".png 2x, images\/"+encodeURI(sectionName)+".png 3x\" class=\"icon\"/><label>"+dicNow.name+" v"+dicNow.version+"</label></a></li>";
+		sectionContent +=  "<li class=\"has-icon\"><a href='"+urlOpen+"' target='_blank' role=\"button\"><img style=\"border-radius: 20%;\" src=\"images\/"+encodeURI(sectionName)+".png\" alt=\"\" onerror=\"this.src='images\/Utilities.png'\"  class=\"icon\"/><label>"+dicNow.name+" v"+dicNow.version+"</label></a></li>";
 	}
 	
 	$("#browser").html(sectionContent);
@@ -104,7 +104,7 @@ function loadMainSection()
 {
 	var sectionContent = "";
 	for (var section in packagesSection) {		
-		sectionContent += "<li class=\"has-icon\"><a onclick=\"openSection('"+section+"')\" role=\"button\"><img style=\"border-radius: 20%;\" href=\"images\/"+encodeURI(section)+".png\" alt=\"\" srcset=\"images\/"+encodeURI(section)+".png 2x, images\/"+encodeURI(section)+".png 3x\" class=\"icon\"/><label>"+section+" ("+packagesSection[section].length+")</label></a></li>";
+		sectionContent += "<li class=\"has-icon\"><a onclick=\"openSection('"+section+"')\" role=\"button\"><img style=\"border-radius: 20%;\" src=\"images\/"+encodeURI(section)+".png\" onerror=\"this.src='images\/Tweaks.png'\" alt=\"\"  class=\"icon\"/><label>"+section+" ("+packagesSection[section].length+")</label></a></li>";
 	}
 	$("#browser").html(sectionContent);
 }
