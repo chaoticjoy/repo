@@ -139,47 +139,6 @@ SHA512: 3e85942dd88c99560c1256c7bb5ca4b77f7f78a8b234a5de4244303e3d57783dc14e4f98
 Name: NFCWriter X 简体中文包
 Author: Sandy0&妖刀
 
-Package: com.cydiabc.bilibilicrack
-Architecture: iphoneos-arm
-Version: 0.2-1
-Section: 插件
-Maintainer: Ai-小苹果™
-Depends: mobilesubstrate
-Filename: ./debs/com.cydiabc.bilibilicrack_0.2-1_iphoneos-arm.deb
-Size: 86448
-MD5sum: f129cb4b272319bd01c950050be0fa4c
-SHA1: f833887e95ddb32254ac7d05b6ace96ee682450c
-SHA256: e213b857081b53e40c22f675f4c779730aef561462aaa348b87d33268c2fd636
-SHA512: 0f9541bbf0ffed7ce3264a096facffd42d10254e174bd10d3ff5b64f5a6e54db9e1c6067460665c2c525d10ae96f454a73ff62a09d58a22da13dbe1f09ed1a05
-Description: 哔哩哔哩解锁大会员，解锁1080p，需最新版本哔哩哔哩
-A12: 1
-Name: 哔哩哔哩高级版
-Author: 神秘人
-Sponsor: Ai-小苹果™
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Icon2: 1.png
-
-Package: com.cydiabc.choicy
-Architecture: iphoneos-arm
-Version: 1.2.2
-Section: 系统
-Maintainer: Ai-小苹果
-Installed-Size: 776
-Depends: mobilesubstrate, applist
-Filename: ./debs/com.cydiabc.choicy_1.2.2_iphoneos-arm.deb
-Size: 91414
-MD5sum: f2e4a65ab4a48aaf14b679a929430879
-SHA1: e3a1c2b65764184cb81f6fff2498890dec9bd562
-SHA256: 4c70ab23e9e95e1cc43a8e45560968d3b9e45777eaf2db6ca111f52ce355dee5
-SHA512: bb128b02f42ef5b63abf707ff7c1fe124089806c1d3bdcdc5a49b052f78a6dde97f0a2ff36d0599d3f278bfda92780b38593b03857fdc3d6b3479223b63e1679
-Description: 更准确的屏蔽越狱检测，全功能完整汉化版，具体效果预览截图
-A12: 1
-Name: Choicy越狱屏蔽
-Author: opa334
-Sponsor: Ai-小苹果
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Icon2: 12.png
-
 Package: com.cydiabc.flyjb
 Architecture: iphoneos-arm
 Version: 0.2.5.3
