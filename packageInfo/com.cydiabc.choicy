@@ -1,9 +1,0 @@
-{
-	"name": "choicy",
-	"desc_short": "防注入。",
-	"desc_version": "暂无历史版本",
-	"compatitle": "IOS:13.5",
-	"changelog": "<strong>历史变更</strong><br>暂时没有历史版本<br>",
-	"screenshot": "<div style='text-align:center;'><img width=95% src='https://chaoticjoy.github.io/repo/images/cydia7.png'/></a><br></div>",
-	"open": true,
-}

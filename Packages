@@ -226,47 +226,6 @@ Sponsor: Ai-小苹果
 Icon: file:///Applications/Cydia.app/Sections/Utilities.png
 Icon2: 5.png
 
-Package: com.cydiabc.shadow
-Architecture: iphoneos-arm
-Version: 2.0.20
-Section: 系统
-Maintainer: Ai-小苹果
-Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common (>= 1.13.1), applist, preferenceloader, com.rpetrich.rocketbootstrap (>= 1.0.7~beta3)
-Filename: ./debs/com.cydiabc.shadow_2.0.20_iphoneos-arm.deb
-Size: 253350
-MD5sum: 2e945ade5b8ed3d2217c21bd85e3d937
-SHA1: fb3a8aa7ae7d7d8a525286e0c79fc35fc0463601
-SHA256: 70e9b10430d76619053874a3a0060c320b1428caf11cc5a3a8a98dd984219881
-SHA512: 40a9d43559ed305eaaf0ec2cd64b7a7509643afb75aeacc5ebce5364f1c2cae1c19a4224309f23b4c12239a0429c54fbb42bb317416e71e8f6955e44772673fa
-Description: 轻量级通用越狱检测，已完整汉化
-A12: 1
-Name: Shadow 屏蔽越狱检测
-Author: jjolano
-Sponsor: Ai-小苹果
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Icon2: 12.png
-
-Package: com.cydiabc.smarterlpm
-Architecture: iphoneos-arm
-Version: 1.0.7
-Section: 系统
-Maintainer: smokin1337
-Installed-Size: 524
-Depends: mobilesubstrate, com.spark.libsparkapplist, com.spark.libsparkcolourpicker, com.opa334.ccsupport
-Filename: ./debs/com.cydiabc.smarterlpm_1.0.7_iphoneos-arm.deb
-Size: 52876
-MD5sum: 460cc4496d95df163c6eb1808f34467d
-SHA1: 8d6b8e2363b9f7365d5dad6e82ded91b3c6b5795
-SHA256: 235ad0945fdd77716111fa01faf81fdbbb14d7b4ec5685c911a93a53fc580804
-SHA512: bbae964f0ce2c2816140a482cbb2e053d00810518f261c11821fdf21a42b8075ce800ff7e70e5e2887554386a882afee1b8eddafeaf6ddf746143e6ae96e1687
-Description: 智能的低功耗省电模式，具体预览截图
-A12: 1
-Name: SmarterLPM智能省电
-Author: smokin1337
-Sponsor: Ai-小苹果™
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Icon2: 12.png
-
 Package: com.cydiabc.smarterlpm
 Architecture: iphoneos-arm
 Version: 1.0.8
@@ -308,28 +267,6 @@ Author: 土拨鼠
 Sponsor: Ai-小苹果
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Icon2: 1.png
-
-Package: com.cydiabc.unsub
-Architecture: iphoneos-arm
-Version: 0.1.9
-Section: 系统
-Maintainer: Ai-小苹果
-Installed-Size: 624
-Depends: mobilesubstrate, ws.hbang.common (>= 1.11), applist, firmware (>= 9.0)
-Conflicts: co.vexation.nosubstitute, com.opa334.nosubstitute12
-Filename: ./debs/com.cydiabc.unsub_0.1.9_iphoneos-arm.deb
-Size: 73946
-MD5sum: eeb917e98eb65be05a4f77998a902785
-SHA1: c3e4c6eb6141bf5880756e403214e138f8f0b0c1
-SHA256: 39972f88a0f31eaa3e527eadb31c0cc64d4d0da73fdb6f35352fe780d2a68925
-SHA512: df86694e385a2fa557ad0b9770730baf775507d1084d98d47d2beeb1397ac6f60f83fa0eaa4ed312704a85402444ce4a2198b3567d2f92cbe082717456d30eb5
-Description: 屏蔽软件越狱检测
-A12: 1
-Name: UnSub 屏蔽越狱检测
-Author: Nepeta
-Sponsor: Ai-小苹果
-Icon: file:///Applications/Cydia.app/Sections/System.png
-Icon2: 12.png
 
 Package: com.ex.substitute
 Architecture: iphoneos-arm
@@ -421,21 +358,6 @@ SHA512: bb56326cbc35ac55d1caa3f7b3af65e979b52373b76e76a2af9d1d8a089aba853246ed8a
 Name: CallBar XS 简体中文包
 Author: Sandy0、妖刀
 
-Package: com.hk.kernbypass.new
-Architecture: iphoneos-arm
-Version: 0.0.7-2
-Section: 嗨-工具
-Maintainer: akusio
-Depends: mobilesubstrate, applist, preferenceloader, firmware(>=13.5)
-Filename: ./debs/com.hk.kernbypass.new_0.0.7-2_iphoneos-arm.deb
-Size: 46386
-MD5sum: 81960d8fd23805336880c111946259e3
-SHA1: 439bd97e67f09fb5e7b5abca2f82277e8c6ae233
-SHA256: d1ca30b3f516c52bb80949a16045cd01b7937d60d0dd553e00959f05821bca10
-SHA512: 2288637a982ca0674000c67d3e7ee2d1e407e876f90e0c69ac67c536e783d349b267c07e41e4b7ff6f0d14f33a3471bad2669579326732384f8659ea0555b3ca
-Name: KernBypass (13.5+专版)
-Author: akusio/土拨鼠
-
 Package: com.hk.shadow.cn
 Architecture: iphoneos-arm
 Version: 2.0.20
@@ -449,21 +371,6 @@ SHA256: 6839b31067afab6932e87b44372c499614d5f628b522cf832844d28ef2b87046
 SHA512: 52025bd16e519fd30abd2f4f6f696c9496227c2f9e92cbf1943a57bfdb987b316149a536e7204fb5e96ab48d6311a1cd914e6c08d2daf01dc295ce9bf3530b6b
 Name: Shadow 简体中文包
 Author: Ball <ball@hackcn.net>
-
-Package: com.hk.shadow
-Architecture: iphoneos-arm
-Version: 2.0.21
-Section: 嗨-工具
-Maintainer: jjolano
-Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common (>= 1.13.1), applist, preferenceloader, com.rpetrich.rocketbootstrap (>= 1.0.7~beta3)
-Filename: ./debs/com.hk.shadow_2.0.21_iphoneos-arm.deb
-Size: 208018
-MD5sum: 2e32f3c6a2f0a00830642c734069e619
-SHA1: 652c33f723b662bd190d2cc3d74972c857ac915c
-SHA256: aa5632ed8c19e67385f9f49941d03c6b1694c5737f255c3d9757483f50913fae
-SHA512: 9f4ef16c64f9a9fa534a96deb2eec305a05911b8ee2f94735ea5c522c3052a83ff7902a2c82967ad7a11c7a1e7c1d82065b457dafc4ab4690649c55106320534
-Name: Shadow越狱屏蔽(CN)
-Author: jjolano
 
 Package: com.laughingquoll.sunflower
 Architecture: iphoneos-arm
@@ -687,60 +594,6 @@ Tag: role::developer
 Name: libsparkcolourpicker
 Author: Spark
 
-Package: com.tigisoftware.filza64bit
-Architecture: iphoneos-arm
-Version: 3.7.6-28
-Section: Utilities
-Maintainer: TIGI Software
-Installed-Size: 21736
-Depends: zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza
-Filename: ./debs/com.tigisoftware.filza64bit_3.7.6-28_iphoneos-arm.deb
-Size: 8795786
-MD5sum: 8e1a2d8ef1b1b3a94b5bdd59a04a638a
-SHA1: fef1b05de067fd16e9b2f53b0d6b212c29527276
-SHA256: edf113385bccb882a5d15190834332850cb40e9f20566c5fc08a2dcc6b8d0c60
-SHA512: 34f2561ef8719b017eed17b1cc1f0aaffaf8597b1333cabf4819b45c4cfc1f2e30d701c74d3df2280cbbc6ad948d93e2cc9a655d6f63c9882547e67589def725
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
-Name: Filza File Manager 64-bit
-Author: TIGI Software
-
-Package: com.tigisoftware.filza64bit
-Architecture: iphoneos-arm
-Version: 3.7.6-32
-Section: Utilities
-Maintainer: TIGI Software
-Installed-Size: 21736
-Depends: zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza
-Filename: ./debs/com.tigisoftware.filza64bit_3.7.6-32_iphoneos-arm.deb
-Size: 8805272
-MD5sum: 3c3a2c26f0fbf13eba65dff1e406edcc
-SHA1: 7985c55033d8c2fd844c20b6be9653981144f4bb
-SHA256: 9fd7072b9a927cc41148571737e8f5aab0ee63f93db9d088d919a280021b4c49
-SHA512: c27257d77c9aef5d3197ebd913cac78ed4266055bed8882424fa2e5221e7648b6256edb38e71582e84e93332ac1dde6522e017fb2f6e9c8aa6b7f7485e51e4bd
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
-Name: Filza File Manager 64-bit
-Author: TIGI Software
-
-Package: com.tigisoftware.filza64bit
-Architecture: iphoneos-arm
-Version: 3.7.7-2
-Section: Utilities
-Maintainer: TIGI Software
-Installed-Size: 21756
-Depends: zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza
-Filename: ./debs/com.tigisoftware.filza64bit_3.7.7-2_iphoneos-arm.deb
-Size: 8808238
-MD5sum: 749ce23f96248a4498202f0afc509e18
-SHA1: 7aa2639d277b915d600ce1bd097827198d6d12bd
-SHA256: 7e39c076e49b3e9ea74e90077eaa0a2602e987d09e579e06a5c6c0371e940b36
-SHA512: 1d9f2a543027209e79004e809b7823547cadf9ea3c1da278c0e600f7dd3bdc0e60b12f77fdb6f34b21c78487d032e8c4260f9570b553d71b80a8bb3a196759ec
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
-Name: Filza File Manager 64-bit
-Author: TIGI Software
-
 Package: com.wechat.weiba
 Architecture: iphoneos-arm
 Version: 0.1-1
@@ -872,22 +725,6 @@ SHA256: 65510b8718c92078688f7f449f3f79b1ded2767b3fbd7b9c496cb6b1a8c46022
 SHA512: 3a472361b63735bdd4ffaef8dce70d4138ffc44dbe52caa99a9cf534486b3fb8776992ed69eee9bbd6d97d51683caa758d2858b59ed32f588adb6ea8b87ea23f
 Description: 微信多功能定义助手・Wechat Multifunctional Definition Assistant
 Name: WeChat Helper
-Author: iBreak <ibreak2019@qq.com>
-
-Package: com.yourepo.ibreak.wechatwhiteui
-Architecture: iphoneos-arm
-Version: 1.1.1
-Section: Themes
-Maintainer: iBreak <ibreak2019@qq.com>
-Depends: mobilesubstrate
-Filename: ./debs/com.yourepo.ibreak.wechatwhiteui_1.1.1_iphoneos-arm.deb
-Size: 7228
-MD5sum: 98cdc026a3e6ff127c63d9fadabd0281
-SHA1: dfc02940f3f05ea0f9424d7d7abab514465274b3
-SHA256: cb95d705913372367753224bd0730afc4b4598008c8bd0ea648ba520a4f7f286
-SHA512: 41e14ec33bd3121639268e19e719c03a2b556118f6a08ff96f95f0523785b1ea96e061fb6bf781fe44cce95952bbfb022f5b6bc81467da355a43df71a3ad4a90
-Description: Tips: 作者自用调整・WeChat White UI For Pevelopers ' Own Use
-Name: WeChat White UI
 Author: iBreak <ibreak2019@qq.com>
 
 Package: Flex3beta
