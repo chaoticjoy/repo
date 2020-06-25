@@ -104,7 +104,7 @@ function loadMainSection()
 {
 	var sectionContent = "";
 	for (var section in packagesSection) {		
-		sectionContent += "<li class=\"has-icon\"><a onclick=\"openSection('"+section+"')\" role=\"button\"><img style=\"border-radius: 20%;\" href=\"images\/"+encodeURI(section)+".png\" onerror=\"this.src='images\/Tweaks.png'\" alt=\"\" srcset=\"images\/"+encodeURI(section)+".png 2x, images\/"+encodeURI(section)+".png 3x\" class=\"icon\"/><label>"+section+" ("+packagesSection[section].length+")</label></a></li>";
+		sectionContent += "<li class=\"has-icon\"><a onclick=\"openSection('"+section+"')\" role=\"button\"><img style=\"border-radius: 20%;\" href=\"images\/"+encodeURI(section)+".png\" onerror=\"this.href='images\/Tweaks.png'\" alt=\"\" srcset=\"images\/"+encodeURI(section)+".png 2x, images\/"+encodeURI(section)+".png 3x\" class=\"icon\"/><label>"+section+" ("+packagesSection[section].length+")</label></a></li>";
 	}
 	$("#browser").html(sectionContent);
 }
