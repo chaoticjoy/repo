@@ -139,27 +139,6 @@ SHA512: 3e85942dd88c99560c1256c7bb5ca4b77f7f78a8b234a5de4244303e3d57783dc14e4f98
 Name: NFCWriter X 简体中文包
 Author: Sandy0&妖刀
 
-Package: com.cydiabc.flyjb
-Architecture: iphoneos-arm
-Version: 0.2.5.3
-Section: 系统
-Maintainer: Ai-小苹果
-Installed-Size: 1264
-Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
-Filename: ./debs/com.cydiabc.flyjb_0.2.5.3_iphoneos-arm.deb
-Size: 494474
-MD5sum: fd780534d699a9a5f68e2220aebed734
-SHA1: 2362601c89d922d67f8d24ebb1771479ab531ace
-SHA256: 4351fd9052f5fd4ab0af3d9e58e995a169f2927b3c6c65d403320f279e965b6b
-SHA512: 1b7e9507ced784e59d82f7c2aa5daee94fd833ff01b991e6aadcaac9155cded61361d4cdc3baf9c98f5f606774196d340f426ae0ed485f6ceb704f96da102ac6
-Description: 屏蔽越狱检测 激活指纹 面容支付，插件为韩语插件，已经汉化
-A12: 1
-Name: FlyJB屏蔽越狱检测
-Author: XsF1re
-Sponsor: Ai-小苹果
-Icon: file:///Applications/Cydia.app/Sections/System.png
-Icon2: 12.png
-
 Package: com.cydiabc.letmeknow
 Architecture: iphoneos-arm
 Version: 1.4.2
@@ -594,6 +573,24 @@ Tag: role::developer
 Name: libsparkcolourpicker
 Author: Spark
 
+Package: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm
+Version: 3.7.7-4
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 21852
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza
+Filename: ./debs/com.tigisoftware.filza64bit_3.7.7-4_iphoneos-arm.deb
+Size: 8862018
+MD5sum: 26960805d35c2a27291286daf40c8a8f
+SHA1: c737c05ed8ad60874de461838dddac5224101249
+SHA256: 8a18d0bec55e03e6f366058a41c4fb8a7cde809141a7ebc38599c577b43acf1d
+SHA512: 59ab220d55e42f6f5caf624685cfe2c97dc688751c5ea13b2468494aec52a974425c534750f60c586ae94d3544e4df534edb31e2fd8b8ede83a36c8d42225564
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
+Name: Filza File Manager 64-bit
+Author: TIGI Software
+
 Package: com.wechat.weiba
 Architecture: iphoneos-arm
 Version: 0.1-1
@@ -697,22 +694,40 @@ Author: iBreak <ibreak2019@qq.com>
 
 Package: Flex3beta
 Architecture: iphoneos-arm
-Version: 1:3~Beta92
+Version: 1:3~Beta93
 Section: Tweaks
 Maintainer: John Coates
 Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
 Recommended: com.rpetrich.rocketbootstrap
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./debs/flex3beta_3~Beta92_iphoneos-arm.deb
-Size: 14254948
-MD5sum: 83392ad581370c121ed06cc4504a9a3b
-SHA1: f60adf769a49a4982c5392cd669bbe5cecd4f4bb
-SHA256: 66d2063b8162cb9f7b453d4744892b234485702f05b872e41d50a4220327581a
-SHA512: fa1cd67fd5e118eebf9613f452cc483d2c013d5910febd047b2630c4a68eb54c4c73b7aae389b87eed11c7a20c8a7a1c9b7a5020c3dd46f2ed36a7c82d4b460a
+Filename: ./debs/flex3beta_3~Beta93_iphoneos-arm.deb
+Size: 14302018
+MD5sum: d12cf515e774888646d7b26a773f335b
+SHA1: c0c8e42fc0cae8b4d6d2dba7c665b22d90db5a7e
+SHA256: 57e2c2be49442e9fb2e8c6277c43ef97dd39db98037849352cc166ec15263bc9
+SHA512: 11d1e027a8f00a0893cfb7dfdd6ca311345fe85a0aff8e3a528347c7ff8a51e1d453cf8a8d89eb6ab9a388f5d6fdfd93d15632d40af088f21a968e137740d8ec
 Description: Develop your own tweaks and share them on the Flex Community Cloud
 Name: Flex 3 Beta
 Author: John Coates
+
+Package: kr.xsf1re.flyjb
+Architecture: iphoneos-arm
+Version: 0.2.5.3
+Section: Tweaks
+Maintainer: XsF1re
+Installed-Size: 1264
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
+Filename: ./debs/kr.xsf1re.flyjb_0.2.5.3_iphoneos-arm.deb
+Size: 425742
+MD5sum: 9e5af8cea15c0fac95c24f08cbe99598
+SHA1: 268ee700cffa7fb2c8ef679953257566793e7972
+SHA256: c04ee576d8ec04875ba9895a6917ab357f67145f75f637a04322fe9202c9974f
+SHA512: f2a011cea1cd9c2ada2a5ec87cc9db9167ccb5c4a647bb70b3ccc9610387cb3e7a7859fa2674b2bf8926be2190287684bb33a9d94ee8668f5f0dcb2d47a75768
+Description: You can HIDE Doing jailbreak your iDevice.
+Name: FlyJB
+Author: XsF1re
+Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
 
 Package: me.jjolano.shadow
 Architecture: iphoneos-arm
@@ -1076,6 +1091,28 @@ Author: Elias Limneos <limneoselias@gmail.com>
 Icon: file:///Library/PreferenceBundles/CallBarXPreferences.bundle/CallBarXPreferences@3x.png
 Depiction: https://rejail.ru/depiction.php?file=callbarxs
 SileoDepiction: https://rejail.ru/sileo/depiction.php?file=callbarxs
+
+Package: ru.rejail.icontweak
+Architecture: iphoneos-arm
+Version: 1.0.9k
+Section: Tweaks
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 642
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.ichitaso.badgecleaner2, com.flex2areo.apptools, com.rpetrich.iconrenamer, org.ioshack.icontool
+Replaces: com.ichitaso.icontweak
+Filename: ./debs/ru.rejail.icontweak_1.0.9k_iphoneos-arm.deb
+Size: 108018
+MD5sum: cb04e785d21cc1a08663537365822c04
+SHA1: 1f4583ece22f4c23a1961cc9e15c002ffaacd407
+SHA256: 5b6e57b0489cec6b1863aff75190644d6b631cc0ad98df27ab0d4b776b9cd896
+SHA512: 8195e31859b9a6c6b8342e73bdec2f7e877b49e43e991f8faccf7a5e1ab7c338ffd4dcb21ee2fb1fb8b8717bf21372faaae6845397a815206e602e9afc5f9709
+Description: Управление приложением свайпом по иконке
+Name: IconTweak
+Author: ichitaso <willfeeltips+ict@gmail.com>
+Icon: file:///Library/PreferenceBundles/IconTweakSettings.bundle/icon@2x.png
+Depiction: https://rejail.ru/depiction.php?file=icontweak
+SileoDepiction: https://rejail.ru/sileo/depiction.php?file=icontweak
 
 Package: ru.rejail.limneosos
 Architecture: iphoneos-arm
