@@ -1,0 +1,2 @@
+路径：/var/mobile/Library/Preferences/FJMemory
+覆盖就行
