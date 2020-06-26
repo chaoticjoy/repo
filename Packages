@@ -1243,3 +1243,27 @@ SHA256: 55b500e5750a7fe9395f8571749c0e04a90111b271832e552b6a3cf64324393c
 SHA512: 70ce8952aaf4527a8adc7662165419b4af7124dec61d449fbb94d2f0a25a81df74e16437b35c51ee0bdb17338fb7dc4e1d6b8b120c965cc4179d72510b962ae9
 Description: standard Windows compression tool
 
+Package: com.xybp888.CallAssist13
+Architecture: iphoneos-arm
+Version: 1.2.3.0-0
+Priority: optional
+Section: Tweak
+Maintainer: xybp888
+Depends: firmware (>= 13.0), mobilesubstrate,preferenceloader
+Conflicts:
+Replaces:
+Filename: ./debs/电话助手-v1.2.3.0-IOS13全系统.deb
+Size: 1037494
+MD5sum: 0a10ab0c456c351d6e54e61e50147416
+SHA1: f0f56ae4a75d751758766d5d9b55d2f7ed14db33
+SHA256: b44ac26bf19ae5521d8dbb8bf0459ddd29937903b254778fa157303bb694cb98
+SHA512: 6b1ee1f50b4e43a3f8e3323f34a59b8eb732d5074ddffa96b0ac05829d06da74a65991cc91d15b96e79f165f84178a9a2892ab45c67c87ff5ec21d617d8a5776
+Homepage:
+Description: 电话助手授权版本,集成T9,通话录音,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS13-正式完整版(兼容A12/A13)
+Author: xybp888
+dev:
+Depiction: https://apt.htv123.com/update.html
+SileoDepiction: https://apt.htv123.com/update.html
+Icon: file:///Library/PreferenceBundles/CallAssistSetting.bundle/CallAssistIcon@3x.png
+
