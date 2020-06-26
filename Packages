@@ -112,6 +112,26 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpples
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: cannathea
 
+Package: com.chaoticjoy.flyjb
+Architecture: iphoneos-arm
+Version: 0.2.5.3
+Section: 系统
+Maintainer: 小卒
+Installed-Size: 1264
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
+Filename: ./debs/com.chaoticjoy.flyjb_0.2.5.3_iphoneos-arm.deb
+Size: 619858
+MD5sum: 3a83fad5e087d468ef5fbf361f93c218
+SHA1: d19a987fe4b18d1dace7e50a6761864816422d8b
+SHA256: f2d267600035e0ee7cb79502e6128ce8074576a40e6a437ae7ff9a4ebec4aca3
+SHA512: 4cc8419eab90ac0d37edc9105d377509fe98e0a8dc31fb066303097beebe88659424ff8ff229a78db149b7e74a5ffc9c532e50d4c413c2e9421f7d0ec5a0ac0a
+Description: 屏蔽越狱检测 激活指纹 面容支付，插件为韩语插件，已经汉化
+A12: 1
+Name: FlyJB屏蔽越狱检测
+Author: XsF1re
+Sponsor: 小卒
+Icon: file:///Applications/Cydia.app/Sections/System.png
+
 Package: com.crack.cocoatop64
 Architecture: iphoneos-arm
 Version: 2.0.2-1
