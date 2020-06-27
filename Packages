@@ -139,6 +139,27 @@ SHA512: 3e85942dd88c99560c1256c7bb5ca4b77f7f78a8b234a5de4244303e3d57783dc14e4f98
 Name: NFCWriter X 简体中文包
 Author: Sandy0&妖刀
 
+Package: com.cydiabc.crackerxi
+Architecture: iphoneos-arm
+Version: 1.1.16
+Section: 工具
+Maintainer: Ai-小苹果
+Depends: firmware (>= 11.0), ldid (>=2.0)
+Filename: ./debs/com.cydiabc.crackerxi_1.1.16_iphoneos-arm.deb
+Size: 9961142
+MD5sum: b6b65bd25a6419ac2174916774d92124
+SHA1: 6a19c14c43b83457ab96221c2229606b3c35db65
+SHA256: 014366f6dddfd8dcc718fe5d2ae65c1744a121c0b1cfed9b21f8ddadad227039
+SHA512: 681f3e36ec829033c0962336d3458cb89d8cabf0cd40083b94aa073d7eb5ba815f538bb0017b5528d72160d3d2cf3525dc9b917d3fa08b9ed699a86f0d9f0e15
+Description: iosApp砸壳工具,普通用户可用于导出App
+ 如出现打开“CrackerXI+”闪退,即表明此应用未正确联网,至于如何联网，请移步百度
+A12: 1
+Name: CrackerXI App脱壳工具
+Author: c0pyn1nja
+Sponsor: Ai-小苹果
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Icon2: 5.png
+
 Package: com.cydiabc.letmeknow
 Architecture: iphoneos-arm
 Version: 1.4.2
@@ -521,6 +542,28 @@ Author: Samg_is_a_Ninja <samgisaninja@unc0ver.dev>
 dev: stgardner4
 Icon: file:///Applications/SuccessionRestore.app/AppIcon20x20@3x.png
 
+Package: com.shmoopillc.flexible
+Architecture: iphoneos-arm
+Version: 2.1.0
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 4920
+Depends: firmware(>= 8.0), mobilesubstrate, preferenceloader, applist
+Filename: ./debs/com.shmoopillc.flexible_2.1.0_iphoneos-arm.deb
+Size: 704978
+MD5sum: 6405f2da1a3f8d8babc130583213e2cb
+SHA1: a69671aa10dc0f40a9feb96f2e78b6d75b301c69
+SHA256: 7f501009cab9bc2b338c4e750166386ad1ff1add4a54c8590675ebef974c1a1f
+SHA512: 7285a6ff7adb13940a96100a936048fa9b3fa72e007c602991d2a95f7dd90701197c086988d1d2bfa16bb47fbc25ab4d36d7b8beb8964248668f837b53408be6
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flexibleDp
+Description: Tweak to enable FLEX debugging tool
+Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Name: FLEXible
+Author: Shmoopi <shmoopillc@gmail.com>
+dev: shmoopi
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flexibleDp
+Icon: file:///Library/PreferenceBundles/FlexiblePrefs.bundle/FLEXibleIcon@2x.png
+
 Package: com.smokin1337.lpmautolocktime
 Architecture: iphoneos-arm
 Version: 1.0.1
@@ -694,19 +737,19 @@ Author: iBreak <ibreak2019@qq.com>
 
 Package: Flex3beta
 Architecture: iphoneos-arm
-Version: 1:3~Beta93
+Version: 1:3~Beta95
 Section: Tweaks
 Maintainer: John Coates
 Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
 Recommended: com.rpetrich.rocketbootstrap
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./debs/flex3beta_3~Beta93_iphoneos-arm.deb
-Size: 14302018
-MD5sum: d12cf515e774888646d7b26a773f335b
-SHA1: c0c8e42fc0cae8b4d6d2dba7c665b22d90db5a7e
-SHA256: 57e2c2be49442e9fb2e8c6277c43ef97dd39db98037849352cc166ec15263bc9
-SHA512: 11d1e027a8f00a0893cfb7dfdd6ca311345fe85a0aff8e3a528347c7ff8a51e1d453cf8a8d89eb6ab9a388f5d6fdfd93d15632d40af088f21a968e137740d8ec
+Filename: ./debs/flex3beta_3~Beta95_iphoneos-arm.deb
+Size: 14363150
+MD5sum: 8b66a1a7a15daa0f716b6d77eabfd843
+SHA1: bbafa5a446ca124d5a7b14da584776eb825b3b10
+SHA256: 2e93f492ecfe30229ab098295f67dc197a676312a3d20351f308a99329082c6a
+SHA512: d4166421d27adff574c5c7f8c897e63d99dbe40ce1f7c478611ae4fe8d1adaf61589dccce2876a175202b145466a5e049dd06ef4dea711c335d6766b897c6e97
 Description: Develop your own tweaks and share them on the Flex Community Cloud
 Name: Flex 3 Beta
 Author: John Coates
@@ -728,6 +771,25 @@ Description: You can HIDE Doing jailbreak your iDevice.
 Name: FlyJB
 Author: XsF1re
 Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
+
+Package: ldid
+Architecture: iphoneos-arm
+Version: 2:2.1.2+g5420cb5-2
+Priority: optional
+Section: Development
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 464
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist (>= 2.0.0), libssl1.1.1, dpkg (>= 1.18.25-9)
+Filename: ./debs/ldid_2.1.2+g5420cb5-2_iphoneos-arm.deb
+Size: 52148
+MD5sum: b83b5c7b01ed46d68b2654d8c77fabea
+SHA1: a01962dfd5a957c3586ee12781dc53164c384a44
+SHA256: 1a3f40113f385aa6968349d29f7aaa63322823ea54151662b1bd43d69e4280ab
+SHA512: fe0a09a183833c3b1c3b6c8e6b486c7fa90a9718f912359225ab2b9ed95d0bbb5399cd69bbbb6718c3619d6efd7ccab3bceeb130833b8e3ff1d2008ca4cdb0d7
+Description: pseudo-codesign Mach-O files
+Name: Link Identity Editor
+Author: Jay Freeman (saurik) <saurik@saurik.com>
 
 Package: me.jjolano.shadow
 Architecture: iphoneos-arm
