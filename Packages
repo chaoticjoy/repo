@@ -139,6 +139,27 @@ SHA512: 3e85942dd88c99560c1256c7bb5ca4b77f7f78a8b234a5de4244303e3d57783dc14e4f98
 Name: NFCWriter X 简体中文包
 Author: Sandy0&妖刀
 
+Package: com.cydiabc.batteryramp
+Architecture: iphoneos-arm
+Version: 1.3.0
+Section: 系统
+Maintainer: MegaDev
+Installed-Size: 664
+Depends: mobilesubstrate,ws.hbang.common,preferenceloader
+Filename: ./debs/com.cydiabc.batteryramp_1.3.0_iphoneos-arm.deb
+Size: 57926
+MD5sum: 1fc373c984f04a44f10550587b21d5b2
+SHA1: d94e556d2b298cb155c61e2f3359d34c49147037
+SHA256: b34da2b6690681d3025576cad03701ff3b0f68b27d34cd678d2216e73c30eb24
+SHA512: b537f16de17ca77fcbccb52bf7ebe594558b25c1b506a3247a31e062468b88d9b4de92da54fafa11907e38b56d0eabef1de7efaa5056a47b9102ea055db89d6e
+Description: iPhone置于功能受限状态，以减少充电时间
+A12: 1
+Name: BatteryRamp高效充电
+Author: MegaDev
+Sponsor: Ai-小苹果™
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 12.png
+
 Package: com.cydiabc.crackerxi
 Architecture: iphoneos-arm
 Version: 1.1.16
@@ -371,6 +392,26 @@ SHA256: 6839b31067afab6932e87b44372c499614d5f628b522cf832844d28ef2b87046
 SHA512: 52025bd16e519fd30abd2f4f6f696c9496227c2f9e92cbf1943a57bfdb987b316149a536e7204fb5e96ab48d6311a1cd914e6c08d2daf01dc295ce9bf3530b6b
 Name: Shadow 简体中文包
 Author: Ball <ball@hackcn.net>
+
+Package: com.julioverne.ext3nder-installer
+Architecture: iphoneos-arm
+Version: 022b
+Section: Utilities
+Maintainer: Julio
+Pre-Depends: ldid, unzip, coreutils, zip, sed
+Depends: mobilesubstrate
+Conflicts: com.julioverne.ext3nder
+Filename: ./debs/com.julioverne.ext3nder-installer_022b_iphoneos-arm.deb
+Size: 1947692
+MD5sum: c125341ea7283265364d6755d696bc5b
+SHA1: cc947c68cf9bb0f73a672b346096edf85c26f31e
+SHA256: 176948a72235dad6d63cdb9183a2640c43eee7e9a9b63edd7a92dfb3b6e8738f
+SHA512: defb37d664b47a3045c87ecc7520f1cde49a467242cc5f884aa4bb5bc8ddc119fdec93cdb99d18b965430ee8b98de37e37d1967b80df453b3333367dd2d28796
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia Extender Installer With Extra Features
+Name: Ext3nder Installer
+Author: julioverne
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.ext3nder-installer
 
 Package: com.laughingquoll.sunflower
 Architecture: iphoneos-arm
@@ -671,6 +712,22 @@ Description: Cydia Fix 加速启动载入与加载响应等・Cydia Fix accelera
 Name: Cydia Quick
 Author: iBreak <ibreak2019@qq.com>
 
+Package: com.yourepo.ibreak.ioshelper13
+Architecture: iphoneos-arm
+Version: 1.1
+Section: System
+Maintainer: iBreak <ibreak2019@qq.com>
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.yourepo.ibreak.ioshelper13_1.1_iphoneos-arm.deb
+Size: 415836
+MD5sum: 83c1f45e5cdb1ca860bb8f21dc212ad3
+SHA1: a2421550c6b8b660293add65e942a706c1c4dac8
+SHA256: a996636cc2596b433b0efbc18817f0aae5996094d241fc90bcd00f2654e2c06e
+SHA512: fc2e4ab737f99f30d8220fc86de8fe79fbbf81d0737e5841caec198e28a2c0244d63e052a5887af1943621d4e97f4ace12a4e46dc003c7ce36ca9363c2b2bdea
+Description: iOS 13 系统多功能定义助手・iOS 13 System Multifunctional Definition Assistant
+Name: iOS Helper 13
+Author: iBreak <ibreak2019@qq.com>
+
 Package: com.yourepo.ibreak.powerhelper
 Architecture: iphoneos-arm
 Version: 1.1
@@ -734,6 +791,27 @@ SHA512: 3a472361b63735bdd4ffaef8dce70d4138ffc44dbe52caa99a9cf534486b3fb8776992ed
 Description: 微信多功能定义助手・Wechat Multifunctional Definition Assistant
 Name: WeChat Helper
 Author: iBreak <ibreak2019@qq.com>
+
+Package: com.yourepo.lly.prozs
+Architecture: iphoneos-arm
+Version: 3.5.4
+Section: Tweaks
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 4124
+Depends: mobilesubstrate, com.creaturecoding.libcspreferences, preferenceloader
+Conflicts: com.yourepo.lenglengyu.prozs, com.lenglengyu.cutisanpro, com.lenglengyu.qmxspro, com.lenglengyu.recshotpro, com.lenglengyu.autoeditpro, com.lenglengyu.yunmeishe, com.lenglengyu.lianzidashi, com.lenglengyu.czjgs, com.lenglengyu.vpnpro, com.lenglengyu.gushihui, com.lenglengyu.yilin, com.lenglengyu.duzhepro, com.lenglengyu.kpoint, com.lenglengyu.baobaoquan, com.lenglengyu.ssshotpro, com.lenglengyu.tingshu, com.lenglengyu.mingsafe, com.lenglengyu.quvideo, com.lenglengyu.qsjtwpro, com.lenglengyu.ringtones
+Filename: ./debs/com.yourepo.lly.prozs_3.5.4_iphoneos-arm.deb
+Size: 1481786
+MD5sum: 6791652ba652f34c03f1a56a2e959bb6
+SHA1: 635bdb663fa1bec9fc39548420614f1c945a9cdf
+SHA256: 5d0329d282774cbcdd7857f5abde595024de657efb81ceb69c9f055121fb0751
+SHA512: acb51385392e9cec392ba7e05a5396651b87b504c2774b79b1cef1f62b9afa0d0003d2462a669956a1a5c97d92a939231b9e465240f407c0cc53de69392d4831
+Description: 已适配A12。各类常用app开启Pro权限，相关app商店下载即可。即将添加更多app。
+Name: Pro助手
+Author: lenglengyu
+Icon: file:///Library/PreferenceBundles/prozs.bundle/icon@2x.png
+Depiction: https://repo.lenglengyu.top/packageInfo/prozs.html
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/prozssileo
 
 Package: Flex3beta
 Architecture: iphoneos-arm
@@ -867,6 +945,25 @@ SHA512: c28a35261490d08e739a3ad25563f9ff640171e4c36bbb12837ca592c364141d8c268ef1
 Description: 使企业软件即使已经掉证书了也可以继续进入应用（仅越狱状态），iOS11-iOS13测试通过
 Name: AntiRevoke
 Author: Netskao
+
+Package: netskao.kwyycrack
+Architecture: iphoneos-arm
+Version: 2.2-3
+Section: Netskao-Cracks
+Maintainer: Nets
+Installed-Size: 232
+Depends: mobilesubstrate
+Conflicts: netskao.kuwocrack
+Filename: ./debs/netskao.kwyycrack_2.2-3_iphoneos-arm.deb
+Size: 51640
+MD5sum: a2da44cc79c031085bd4fe39dbc8acef
+SHA1: ce8fc4117f541fffbf81bbf26f9d8efffce81bf8
+SHA256: 37aa928428b9fc796906245ee26b2b8f6fe82637d7c26f8b9547ac1d959329f5
+SHA512: 15533c6cc947e22c2491b87451d73d0f57f01b0ba733f61c03284eb8e03c913635a700571c58d1bbc5b1b637ce3e8edc4c8a5d15cdca02370b6845a9382d60ac
+Homepage: https://apps.apple.com/cn/app/%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90-%E5%A5%BD%E9%9F%B3%E8%B4%A8%E7%94%A8%E9%85%B7%E6%88%91/id588673713
+Description: 机酷我音乐开启全功能，全音乐可下载，VIP皮肤随便用，解锁海外限制，去除多处广告等，点击“更多信息”跳转下载
+Name: 酷我音乐 Crack
+Author: 7Loopy
 
 Package: p7zip
 Architecture: iphoneos-arm
