@@ -364,6 +364,23 @@ SHA512: fe4eadd388ac3a8730c75f8c6a5d8f7bff503e18a3c7b623ada85ed66ef96cffc02e5157
 Name: AudioRecorder XS 简体中文包
 Author: Sandy0&妖刀
 
+Package: com.hk.CallAssistBariOS13
+Architecture: iphoneos-arm
+Version: 1.1-0
+Priority: optional
+Section: 嗨-工具
+Maintainer: xybp888 <8657156@qq.com>
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/com.hk.callassistbarios13_1.1-0_iphoneos-arm.deb
+Size: 45716
+MD5sum: 88624d3e1b13120521bda7f83b852b32
+SHA1: 7abd25c45cc5450b4b2295ae26140d771bf85d0a
+SHA256: 1f4c312d89345c3b31b1801ebee32691f006d80da406649db7e5c5b377ca8aaf
+SHA512: 599e924166d4df02b903c2d1c587482e0ccc58e007671ce21324131aaa3368cc393924b704be3ceceee53da0982296ebc8a3919f336960cb5deb4c97c380b351
+Name: 简约来电窗口iOS13
+Author: xybp888 <8657156@qq.com>
+Icon: web.png
+
 Package: com.hk.callbarxs12.cn
 Architecture: iphoneos-arm
 Version: 3.2-143
@@ -573,6 +590,30 @@ MD5sum: c48d9828be6f8fe97bf72fa663554211
 SHA1: a1b3050b949846a291a4b80ea798b610eea7d231
 SHA256: 063d37d751929528aca457e2e9d2796781aed3fa7ff4672824ec1b66f973f80a
 SHA512: 213cd02608343f80f1250a0e6436eda0df94ddb865585f3174e3bb1d01ede3dd5edfb45acb6995f7641951bb6f1c61b13f587f915428cee13feb417ebbd3c297
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=successionrestoreDp
+Description: Restore without updating via rootfilesystem DMG
+Tag: purpose::uikit, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Name: Succession
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=successionrestoreDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: Samg_is_a_Ninja <samgisaninja@unc0ver.dev>
+dev: stgardner4
+Icon: file:///Applications/SuccessionRestore.app/AppIcon20x20@3x.png
+
+Package: com.samgisaninja.successionrestore
+Architecture: iphoneos-arm
+Version: 1.4.15
+Priority: optional
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 2522
+Depends: firmware-sbin, rsync
+Filename: ./debs/com.samgisaninja.successionrestore_1.4.15_iphoneos-arm.deb
+Size: 1000124
+MD5sum: c8a70a0555dae8337e57c833829eca72
+SHA1: 49b1b3989a75703603a5bfd4a93f93cf04cf2e32
+SHA256: 9bceafbf67af6a799e1adea9435592cdb1b8e76637ccb09d77160a4420f77a02
+SHA512: 4433973c89a00bb776d8afcf1d22a38e5644c5736069cfea4810c7c38524a277fca8f00cb6f1eea319805cef3c8ee426a36ea61d11c4f22fc2186e23911616a7
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=successionrestoreDp
 Description: Restore without updating via rootfilesystem DMG
 Tag: purpose::uikit, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
