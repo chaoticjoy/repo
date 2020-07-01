@@ -7,5 +7,5 @@ Architecture: iphoneos-arm
 Components: main
 Description: 包括小卒备份的插件及对应版本的ipa
 MD5Sum:
- 13713aea89eeb374456e0bbe3abb66e5 66759 Packages
- 0bb6a8823883e1ad710adf2b402dbfc4 21563 Packages.bz2
+ b16b4ed281c2f353daa713992f86fbe1 68776 Packages
+ bf18f9b3696b7f4eeb2980802ba17d50 22130 Packages.bz2

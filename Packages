@@ -19,6 +19,22 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 dev: rpetrich
 
+Package: com.25mao.DouTu
+Architecture: iphoneos-arm
+Version: 2.1-0
+Priority: optional
+Section: 微信插件
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.25mao.doutu_2.1-0_iphoneos-arm.deb
+Size: 298202
+MD5sum: b1744540e4be97ae13a6274efab852ed
+SHA1: ff9ff176beb99f256af5c0a8d0d83133c354f6f3
+SHA256: 5b815efe98468da8d75b0102275951f321880a06872d9de6be70344260a99d97
+SHA512: 4af983aec04bd6763312ff851e684a58cc68abd6a10a6f529d7d6fe40a04b0be040fc778afe80f1ea31304a82eb78c445c51de947d833c3f3dffdd1e0061bb76
+Name: 微信斗图助手
+Author: Mao
+
 Package: com.25mao.miyou
 Architecture: iphoneos-arm
 Version: 0.2-5
@@ -395,6 +411,21 @@ SHA256: 76e64a2d89af6f4cfc365b5eb2d0bdabe0d92807f1fded92eab2ded2f6d14cce
 SHA512: bb56326cbc35ac55d1caa3f7b3af65e979b52373b76e76a2af9d1d8a089aba853246ed8a18cd5b9495d459fd7148f24db3dcd869356c0456c77be21b213396a9
 Name: CallBar XS 简体中文包
 Author: Sandy0、妖刀
+
+Package: com.hk.glow.cn
+Architecture: iphoneos-arm
+Version: 0.3-24
+Section: 嗨-汉化
+Maintainer: Sandy0
+Depends: mobilesubstrate
+Filename: ./debs/com.hk.glow.cn_0.3-24_iphoneos-arm.deb
+Size: 4110
+MD5sum: 06222d51edfaa63211b82e10728cb72b
+SHA1: 388dca4dcb97d0242dbac97ae99371993dfc755a
+SHA256: 063940cf8c04471371515aa9908ff5e37dfb833c293694767f69ae8ac7b654df
+SHA512: c7b3ef0e7cba20e7db69f76f8b9b433901a1e466bb28cd5e8a9085a8b1137327cb3bb7b123276a183cf28fcf48bed239eac6359486cec3d9126267b59766906d
+Name: Glow 简体中文包
+Author: Sandy0
 
 Package: com.hk.shadow.cn
 Architecture: iphoneos-arm
@@ -1333,6 +1364,26 @@ Name: Limneosos
 Author: ReJail <rejail@rejail.ru>
 Depiction: https://rejail.ru/depiction.php?file=limneosos
 SileoDepiction: https://rejail.ru/sileo/depiction.php?file=limneosos
+
+Package: ru.rj.glow
+Architecture: iphoneos-arm
+Version: 0.3-24
+Section: Tweaks
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 764
+Depends: mobilesubstrate, preferenceloader, firmware ( >= 12), ru.rejail.limneosos
+Filename: ./debs/ru.rj.glow_0.3-24_iphoneos-arm.deb
+Size: 168742
+MD5sum: ad853d2e9625f874b0c360ca27e71705
+SHA1: f35656145d4e08717cd63280011aed4a0feb80a9
+SHA256: 72f7dbfbe71865f16125e9f9877e11dd702e8e878959c3520ab05ea0326acdfe
+SHA512: c662c4cd38fade4a5b1d9cc410fa1294bd6d85a849c4c83342a9735f29f2c4a9c5fc0af0efe5bef82745bfddc9244b1c68a32c7c8d910bc82ace940c8bc41a9c
+Description: Новый AOD для любого устройства
+Name: Glow Rus
+Author: Elias Limneos <limneoselias@gmail.com>
+Icon: file:///Library/PreferenceBundles/Glow.bundle/icon.png
+Depiction: https://rejail.ru/depiction.php?file=glow
+SileoDepiction: https://rejail.ru/sileo/depiction.php?file=glow
 
 Package: sileoturkiyee.nfcwriterx
 Architecture: iphoneos-arm
