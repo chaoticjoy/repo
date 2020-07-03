@@ -35,6 +35,22 @@ SHA512: 4af983aec04bd6763312ff851e684a58cc68abd6a10a6f529d7d6fe40a04b0be040fc778
 Name: 微信斗图助手
 Author: Mao
 
+Package: com.25mao.DouTu
+Architecture: iphoneos-arm
+Version: 2.1-2
+Priority: optional
+Section: 微信插件
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.25mao.doutu_2.1-2_iphoneos-arm.deb
+Size: 210212
+MD5sum: 93fa4fbdcd9af1f4a41748d16f3debea
+SHA1: 92f6929a772800605c358bb8601045083c44ef98
+SHA256: 6cbbfc53721563bbec463a1125333937decc0be57a78a63043863de1066f77cb
+SHA512: 27855c5f1a1cf7bb0465adca67d407fdad4012309a4d162c7a91c17cdfa8a2973e5bbe5c1896afe35d19d0492adb9771240e96c66ad618ad0a9565d98e79265c
+Name: 微信斗图助手
+Author: Mao
+
 Package: com.25mao.miyou
 Architecture: iphoneos-arm
 Version: 0.2-5
@@ -347,6 +363,26 @@ Name: iCleaner Pro
 Author: Ivano Bilenchi <support@ib-soft.net>
 Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
+
+Package: com.fouadraheb.appdata
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Fouad Raheb <support@fouadraheb.com>
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts:
+Filename: ./debs/com.fouadraheb.appdata_1.0_iphoneos-arm.deb
+Size: 115676
+MD5sum: 42267fdaa13f74560f5211083341fad8
+SHA1: 2723e7fec7bf6bdcdba5c16f6b403d3697f93aa0
+SHA256: f86c35c08d80a4f123d24360c1f3e6adb43f7513671d272a45d12c61e5d332b1
+SHA512: 28e52aaf997e9c851e0ebcba55b1e938c7bf4d5146c91ca0e7a7d1824aadef45d84ad251a5e0a6ee4164a1e75b819096ce39e88854b6af065c008cd29cc9e81e
+Description: View & Access Applications Data from Home Screen
+Name: AppData
+Author: Fouad Raheb <support@fouadraheb.com>
+Depiction: https://apt.fouadraheb.com/package/com.fouadraheb.appdata
+SileoDepiction: https://apt.fouadraheb.com/package/com.fouadraheb.appdata/sileo
+Icon: file:///Library/PreferenceLoader/Preferences/AppData@3x.png
 
 Package: com.hk.appstoreplusplus
 Architecture: iphoneos-arm
@@ -917,6 +953,42 @@ MD5sum: 9e5af8cea15c0fac95c24f08cbe99598
 SHA1: 268ee700cffa7fb2c8ef679953257566793e7972
 SHA256: c04ee576d8ec04875ba9895a6917ab357f67145f75f637a04322fe9202c9974f
 SHA512: f2a011cea1cd9c2ada2a5ec87cc9db9167ccb5c4a647bb70b3ccc9610387cb3e7a7859fa2674b2bf8926be2190287684bb33a9d94ee8668f5f0dcb2d47a75768
+Description: You can HIDE Doing jailbreak your iDevice.
+Name: FlyJB
+Author: XsF1re
+Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
+
+Package: kr.xsf1re.flyjb
+Architecture: iphoneos-arm
+Version: 0.2.5.5
+Section: Tweaks
+Maintainer: XsF1re
+Installed-Size: 1268
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
+Filename: ./debs/kr.xsf1re.flyjb_0.2.5.5_iphoneos-arm.deb
+Size: 504776
+MD5sum: 5c321e994336d11fa40089abecf8a6dd
+SHA1: ab8fb793e851161190238ee4c10957e006ee833d
+SHA256: 2df2ef7306a38f400ffb9749b32891edb0332035d4afdad014375b36208aafff
+SHA512: 8e3c7486a4830c247902a11c6a2f1aaec1125ffbf4cc001d21d0cfe289f9b574182b7c5c659bb66f8839f8fb1f2618ca6f61cebd05da5a147379e985bdffc7b0
+Description: You can HIDE Doing jailbreak your iDevice.
+Name: FlyJB
+Author: XsF1re
+Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
+
+Package: kr.xsf1re.flyjb
+Architecture: iphoneos-arm
+Version: 0.2.5.6
+Section: Tweaks
+Maintainer: XsF1re
+Installed-Size: 1268
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
+Filename: ./debs/kr.xsf1re.flyjb_0.2.5.6_iphoneos-arm.deb
+Size: 504136
+MD5sum: 9124936368f2bb2aa4e7c8b0ca81c25f
+SHA1: bdcb35231f43a4946d39d6b5300aa3a87ea027e2
+SHA256: 26f83438537398375cd300e5cfd319a9171c1a66599eb23cb142e44292726323
+SHA512: 1f7ce9e40fa240a8a22beea3aa80cdc56d5bee1bbc789be688b51bea163afaf97a0345caf8c895510137eaebe99177fa1423984114c615602a5ea8c5f1be6c41
 Description: You can HIDE Doing jailbreak your iDevice.
 Name: FlyJB
 Author: XsF1re
