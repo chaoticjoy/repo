@@ -259,6 +259,31 @@ Sponsor: Ai-小苹果
 Icon: file:///Applications/Cydia.app/Sections/System.png
 Icon2: 12.png
 
+Package: com.cydiabc.powerselector11
+Architecture: iphoneos-arm
+Version: 1.2.8
+Section: 系统
+Maintainer: Ai-小苹果
+Installed-Size: 2156
+Pre-Depends: firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
+Replaces: com.ichitaso.powerselector11
+Filename: ./debs/com.cydiabc.powerselector11_1.2.8_iphoneos-arm.deb
+Size: 207424
+MD5sum: b38ac89f154afe41a0c0f4148044dd82
+SHA1: a140e0dd141dfd88dc06da0c473e1e8361ea3804
+SHA256: a96cac57e552ae89cb33bfcd329ba83127f5fd95a11e098228c81576fb0d8e8c
+SHA512: 4f0bce6964b293dcfdfc0eb0fd6f1ee3ab618c52c1c2b5b0071309a7429fce1352307c5388fd7c4be7bb3bcf7f7071d8edf15bee1530e1a68ccea7bb66d10c70
+Description: 控制中心增加关机/重新启动/ldrestart /安全模式/重新启动/uicache/Wi-Fi IP, 全局 IP, 运行时间等，具体效果预览截图
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+A12: 1
+Name: PowerSelector关机增强
+Author: ichitaso
+Sponsor: Ai-小苹果
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Icon2: 12.png
+
 Package: com.cydiabc.semirestore11
 Architecture: iphoneos-arm
 Version: 1.1.2-1
@@ -460,6 +485,21 @@ MD5sum: 06222d51edfaa63211b82e10728cb72b
 SHA1: 388dca4dcb97d0242dbac97ae99371993dfc755a
 SHA256: 063940cf8c04471371515aa9908ff5e37dfb833c293694767f69ae8ac7b654df
 SHA512: c7b3ef0e7cba20e7db69f76f8b9b433901a1e466bb28cd5e8a9085a8b1137327cb3bb7b123276a183cf28fcf48bed239eac6359486cec3d9126267b59766906d
+Name: Glow 简体中文包
+Author: Sandy0
+
+Package: com.hk.glow.cn
+Architecture: iphoneos-arm
+Version: 0.4-24
+Section: 嗨-汉化
+Maintainer: Sandy0
+Depends: mobilesubstrate
+Filename: ./debs/com.hk.glow.cn_0.4-24_iphoneos-arm.deb
+Size: 5074
+MD5sum: da2a143bfb3e2e4e2d9cb11f086b096b
+SHA1: 589e3135d1f393d3b95b719ce90f2c4142c75b26
+SHA256: 1f73f76fd400de63902fce072103148f3a8cd9226c711fa5f1b299fcb63099ab
+SHA512: d26771dbadef9f694b56f787679a69116dc713d7b3c77725a822ad6661e6ecfb817b65b71cdfc1d2869fb16d4b22204895187d17202e65fdf6301748e968d99b
 Name: Glow 简体中文包
 Author: Sandy0
 
@@ -818,6 +858,22 @@ SHA256: 39d2a58e39c25b9f606cca06aadaac79f821e898eee6f059391acbe5d5b74d03
 SHA512: 008bc092553e88bade8ffae41ee3825bb2a1ab5870171a51c65057e253b9384dc94960b05d5fedadef197d9b278edfb46424f6de6f489c3da34cda875af4a219
 Description: Cydia Fix 加速启动载入与加载响应等・Cydia Fix accelerates start-up load and load response, etc.
 Name: Cydia Quick
+Author: iBreak <ibreak2019@qq.com>
+
+Package: com.yourepo.ibreak.ioshelper13
+Architecture: iphoneos-arm
+Version: 1.1.2
+Section: System
+Maintainer: iBreak <ibreak2019@qq.com>
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.yourepo.ibreak.ioshelper13_1.1.2_iphoneos-arm.deb
+Size: 400064
+MD5sum: 49d2abf0e12e18e67da56643fa58aecd
+SHA1: 70be5952c5309ce9a64d36ae85b256bf8af71e96
+SHA256: 82290b327070ccfb6d929e3e194d99ed625182d88751086fe49a27cdbaaa6506
+SHA512: bff630e80f5c38ae606afb544414ff6c2b23ee4950fdacc260cd1b1e0acf4fdaa4e2b21c4c8b12410059298c8cf5e87310b338411fd10f4235686ccf29568017
+Description: iOS 13 系统多功能定义助手・iOS 13 System Multifunctional Definition Assistant
+Name: iOS Helper 13
 Author: iBreak <ibreak2019@qq.com>
 
 Package: com.yourepo.ibreak.ioshelper13
@@ -1450,6 +1506,26 @@ MD5sum: ad853d2e9625f874b0c360ca27e71705
 SHA1: f35656145d4e08717cd63280011aed4a0feb80a9
 SHA256: 72f7dbfbe71865f16125e9f9877e11dd702e8e878959c3520ab05ea0326acdfe
 SHA512: c662c4cd38fade4a5b1d9cc410fa1294bd6d85a849c4c83342a9735f29f2c4a9c5fc0af0efe5bef82745bfddc9244b1c68a32c7c8d910bc82ace940c8bc41a9c
+Description: Новый AOD для любого устройства
+Name: Glow Rus
+Author: Elias Limneos <limneoselias@gmail.com>
+Icon: file:///Library/PreferenceBundles/Glow.bundle/icon.png
+Depiction: https://rejail.ru/depiction.php?file=glow
+SileoDepiction: https://rejail.ru/sileo/depiction.php?file=glow
+
+Package: ru.rj.glow
+Architecture: iphoneos-arm
+Version: 0.4-24k
+Section: Tweaks
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 874
+Depends: mobilesubstrate, preferenceloader, firmware ( >= 12), ru.rejail.limneosos
+Filename: ./debs/ru.rj.glow_0.4-24k_iphoneos-arm.deb
+Size: 210700
+MD5sum: f50cb00592cb7141768d53e2e9876528
+SHA1: c38990c036a26f4e46799ff43c5a2acc81a5f410
+SHA256: 2568d4a29adf653561b249f06179c0be4e850cff31f5a4c21a75539e195784d4
+SHA512: 705f40fe3fa1b088e1564e289564918539a65a57a925d124ab160b4fecbe1e670fb663dac1d9333a57db3da7c39ae1ac77788f5452866d439030b2c32dc06f29
 Description: Новый AOD для любого устройства
 Name: Glow Rus
 Author: Elias Limneos <limneoselias@gmail.com>
