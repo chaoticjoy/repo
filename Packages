@@ -576,22 +576,6 @@ SHA512: 52025bd16e519fd30abd2f4f6f696c9496227c2f9e92cbf1943a57bfdb987b316149a536
 Name: Shadow 简体中文包
 Author: Ball <ball@hackcn.net>
 
-Package: com.iphoneba.tb
-Architecture: iphoneos-arm
-Version: 10.0.1
-Essential: yes
-Section: 『知网少年-系统美化』
-Maintainer: 知网少年
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.iphoneba.tb_10.0.1_iphoneos-arm.deb
-Size: 306256
-MD5sum: e43d00f68cd08846522eb1b10d219166
-SHA1: dea04af0024335435640bcfb623f78fb118f269d
-SHA256: 7218d4fb809f7c004f3668360848b82bc822039aeb3051c4572d81c70d624298
-SHA512: f2c79a6bdf1f80ec2a07b7eed422c7c46b94e4567539a74210fbfd216aafd2760f9d54664c6a18cf9350931ffce2d47fdeb14e1fd4ff99c62c640564c491a900
-Name: 知网少年分类图标
-Author: 知网少年
-
 Package: com.julioverne.ext3nder-installer
 Architecture: iphoneos-arm
 Version: 022b
