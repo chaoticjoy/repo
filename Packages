@@ -102,6 +102,23 @@ Name: 微信助手-密友
 Author: Mao
 Icon: null
 
+Package: com.25mao.MiYou
+Architecture: iphoneos-arm
+Version: 2.0-1
+Priority: optional
+Section: 微信插件
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.25mao.miyou_2.0-1_iphoneos-arm.deb
+Size: 2242214
+MD5sum: 4cdd49610dcdc3d619d6281a47712544
+SHA1: f819a2e2434d5e11e655bf343d1d73d3c19816bf
+SHA256: d1366e58e604a344cc953578924484b50c453de8febcd4b8e25b00ed3824064e
+SHA512: b916ee72008aa96029210a826a5966351421062fbbfb40323b5d10de9ca4ef06cbc881eaed8cc942014662543abe515d455536563f2896f789a90db1dc0f518f
+Name: 微信助手-密友
+Author: Mao
+Icon: null
+
 Package: com.25mao.sudial
 Architecture: iphoneos-arm
 Version: 0.1-4
@@ -284,6 +301,31 @@ Sponsor: Ai-小苹果
 Icon: file:///Applications/Cydia.app/Sections/System.png
 Icon2: 12.png
 
+Package: com.cydiabc.powerselector11
+Architecture: iphoneos-arm
+Version: 1.2.9
+Section: 系统
+Maintainer: Ai-小苹果
+Installed-Size: 2156
+Pre-Depends: firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
+Replaces: com.ichitaso.powerselector11
+Filename: ./debs/com.cydiabc.powerselector11_1.2.9_iphoneos-arm.deb
+Size: 207352
+MD5sum: 326e4a316c1109c843e3d58f1a7dbaaa
+SHA1: d7daa95e7c556c09dc8375317c393280b6fbc79e
+SHA256: a57a1b261a9fcc4009723838ac8c30cd70b2f9bd55dcc57508a498fd28af47a7
+SHA512: d1787f9bfb0683c34af2fbff8a1cfaaaa465bbd1feba6939a298a5ff7dc7f9bb366af61c55c6889df1850581172f840f6260e840a781eb3cbd9bdcdb1a6d3f40
+Description: 控制中心增加关机/重新启动/ldrestart /安全模式/重新启动/uicache/Wi-Fi IP, 全局 IP, 运行时间等，具体效果预览截图
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+A12: 1
+Name: PowerSelector关机增强
+Author: ichitaso
+Sponsor: Ai-小苹果
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Icon2: 12.png
+
 Package: com.cydiabc.semirestore11
 Architecture: iphoneos-arm
 Version: 1.1.2-1
@@ -426,6 +468,23 @@ SHA512: 4ade4ac50bad7655af1e03e81bfcffae8b6dcf8b1d875ae0610f792916c8fa1e248cf03e
 Name: AppStore++(应用降级)
 Author: CokePokes
 
+Package: com.hk.appstoreplusplus
+Architecture: iphoneos-arm
+Version: 0.9.12
+Priority: optional
+Section: 嗨-工具
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/com.hk.appstoreplusplus_0.9.12_iphoneos-arm.deb
+Size: 614136
+MD5sum: 0d609fd9c38025341b175f89f4eda2ff
+SHA1: 560ea167dd54fadf2214592b58a99910c5dbab35
+SHA256: 0af335292048bcdd98060aec86dd2291f0928e100515cdf61adbf615c647906a
+SHA512: c5f580955378ddcc702464d224023ee12462560716fe30a9ad12070f1a497b122c42e23df4be0dce2e8822a0f3f95ebde3358cae27eac9a8321a375b430ebe10
+Name: AppStore++(应用降级)
+Author: CokePokes
+
 Package: com.hk.audiorecorderxs.cn
 Architecture: iphoneos-arm
 Version: 3.5-32
@@ -516,6 +575,22 @@ SHA256: 6839b31067afab6932e87b44372c499614d5f628b522cf832844d28ef2b87046
 SHA512: 52025bd16e519fd30abd2f4f6f696c9496227c2f9e92cbf1943a57bfdb987b316149a536e7204fb5e96ab48d6311a1cd914e6c08d2daf01dc295ce9bf3530b6b
 Name: Shadow 简体中文包
 Author: Ball <ball@hackcn.net>
+
+Package: com.iphoneba.tb
+Architecture: iphoneos-arm
+Version: 10.0.1
+Essential: yes
+Section: 『知网少年-系统美化』
+Maintainer: 知网少年
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.iphoneba.tb_10.0.1_iphoneos-arm.deb
+Size: 306256
+MD5sum: e43d00f68cd08846522eb1b10d219166
+SHA1: dea04af0024335435640bcfb623f78fb118f269d
+SHA256: 7218d4fb809f7c004f3668360848b82bc822039aeb3051c4572d81c70d624298
+SHA512: f2c79a6bdf1f80ec2a07b7eed422c7c46b94e4567539a74210fbfd216aafd2760f9d54664c6a18cf9350931ffce2d47fdeb14e1fd4ff99c62c640564c491a900
+Name: 知网少年分类图标
+Author: 知网少年
 
 Package: com.julioverne.ext3nder-installer
 Architecture: iphoneos-arm
@@ -977,6 +1052,31 @@ Icon: file:///Library/PreferenceBundles/prozs.bundle/icon@2x.png
 Depiction: https://repo.lenglengyu.top/packageInfo/prozs.html
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/prozssileo
 
+Package: cydia
+Architecture: iphoneos-arm
+Version: 1.1.36
+Priority: required
+Section: Packaging
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 6472
+Provides: bigbossbetarepo, cydia-sources
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=5.0)
+Depends: cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.19.1), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: ./debs/cydia_1.1.36_iphoneos-arm.deb
+Size: 1260922
+MD5sum: 30cfa894c4c011e66fe06e63d04437c8
+SHA1: 43496edad306221da9c9c9721416abeeca3175ea
+SHA256: 13b8803e376df1eda15338768090df8cd756013d7d616e61749fcf065786c3c3
+SHA512: ea2f9faea002e3474074264a05135918f4a26042f9b38aa59b654898011ccd77b7c5a48fd6eba96fd414e4da8e69b0844c40b9f716ba4580b07ab3e415c41fd1
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, cydia::essential, role::enduser
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+
 Package: Flex3beta
 Architecture: iphoneos-arm
 Version: 1:3~Beta95
@@ -992,6 +1092,25 @@ MD5sum: 8b66a1a7a15daa0f716b6d77eabfd843
 SHA1: bbafa5a446ca124d5a7b14da584776eb825b3b10
 SHA256: 2e93f492ecfe30229ab098295f67dc197a676312a3d20351f308a99329082c6a
 SHA512: d4166421d27adff574c5c7f8c897e63d99dbe40ce1f7c478611ae4fe8d1adaf61589dccce2876a175202b145466a5e049dd06ef4dea711c335d6766b897c6e97
+Description: Develop your own tweaks and share them on the Flex Community Cloud
+Name: Flex 3 Beta
+Author: John Coates
+
+Package: Flex3beta
+Architecture: iphoneos-arm
+Version: 1:3~Beta97
+Section: Tweaks
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Recommended: com.rpetrich.rocketbootstrap
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: ./debs/flex3beta_3~Beta97_iphoneos-arm.deb
+Size: 14371310
+MD5sum: 1f450b09787761c0a32b802652b4f897
+SHA1: f23e581e4e25b828ee69106bfb228798af4c6cce
+SHA256: 7a560b2c3387343d3e37027bb785263409bc60b6bf90b134704988b9fc519f9d
+SHA512: 92d521b454f0e2fc032bd7e16e916ac257939cb3ce3d54ad2f7df387f854b419755d75e659b80cc2d9ec718b0c8d4d2e11c651cae64df749630e3ada4bf08e44
 Description: Develop your own tweaks and share them on the Flex Community Cloud
 Name: Flex 3 Beta
 Author: John Coates
