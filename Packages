@@ -119,6 +119,23 @@ Name: 微信助手-密友
 Author: Mao
 Icon: null
 
+Package: com.25mao.MiYou
+Architecture: iphoneos-arm
+Version: 2.0-2
+Priority: optional
+Section: 微信插件
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.25mao.miyou_2.0-2_iphoneos-arm.deb
+Size: 2293330
+MD5sum: e198cfba9c8184ba8414cf52bf9cc8da
+SHA1: f4ba588592fe8f8b91ccf814c268d4feab1112bb
+SHA256: 74f019a0f3dcb5e6402db481149fd357630f4134f4569bf133d39dabbe31aa45
+SHA512: 1963c47ef1512526681397e35464492706fd38e7f0deeb832b646e181fdf114d2574f2f4c80a44c2a788bf2159ed58b59101c8efe4d99914d40965138929ec9a
+Name: 微信助手-密友
+Author: Mao
+Icon: null
+
 Package: com.25mao.sudial
 Architecture: iphoneos-arm
 Version: 0.1-4
@@ -500,6 +517,21 @@ SHA512: fe4eadd388ac3a8730c75f8c6a5d8f7bff503e18a3c7b623ada85ed66ef96cffc02e5157
 Name: AudioRecorder XS 简体中文包
 Author: Sandy0&妖刀
 
+Package: com.hk.audiorecorderxs.cn
+Architecture: iphoneos-arm
+Version: 3.5-33
+Section: 嗨-汉化
+Maintainer: Sandy0&妖刀
+Depends: mobilesubstrate
+Filename: ./debs/com.hk.audiorecorderxs.cn_3.5-33_iphoneos-arm.deb
+Size: 16980
+MD5sum: 79123f4a67f39c065cb209416cb8550f
+SHA1: 9d600f0bc4183f7bf4c81435c8bc68a34db07601
+SHA256: fd479a432ef81c093d3e26aadd47fb8d1f6052ad475f180fd4d130a635d0b6ef
+SHA512: 1a43265a987f42a52b8555407fc63852dd024e338b8eabf839ece221b7e7f390e13c0ab185c5760b454fdd9ff90e1c27f2f2862099a8b38fcfd8e07ed6bebc5c
+Name: AudioRecorder XS 简体中文包
+Author: Sandy0&妖刀
+
 Package: com.hk.CallAssistBariOS13
 Architecture: iphoneos-arm
 Version: 1.1-0
@@ -529,6 +561,21 @@ MD5sum: 600198b16e4090310792b75484baf21d
 SHA1: 64767361d3fd2cf94b6ada13f82e63e64cf7c060
 SHA256: 76e64a2d89af6f4cfc365b5eb2d0bdabe0d92807f1fded92eab2ded2f6d14cce
 SHA512: bb56326cbc35ac55d1caa3f7b3af65e979b52373b76e76a2af9d1d8a089aba853246ed8a18cd5b9495d459fd7148f24db3dcd869356c0456c77be21b213396a9
+Name: CallBar XS 简体中文包
+Author: Sandy0、妖刀
+
+Package: com.hk.callbarxs12.cn
+Architecture: iphoneos-arm
+Version: 3.2-144
+Section: 嗨-汉化
+Maintainer: Sandy0、妖刀
+Depends: mobilesubstrate
+Filename: ./debs/com.hk.callbarxs12.cn_3.2-144_iphoneos-arm.deb
+Size: 10348
+MD5sum: 05a525d8328766ddd69f32cd1e3b243b
+SHA1: c60cd463c8e5c6c3ada89b0b31a31bee56c557c3
+SHA256: 2374c2cb6c5d2c9bdf66207049b36071e09ed9dd822c688ccc732b8dfbaacc1b
+SHA512: bc66e18aeeef4c7316cb2bd86c97bfdfd6a8595ea1527402a7616ec3976db168f6e86f2281724a59a6200527fa1e55d79f604b45877fd1ff184ac7fd0ba1fdfa
 Name: CallBar XS 简体中文包
 Author: Sandy0、妖刀
 
@@ -863,6 +910,24 @@ Description: Simple to implement, simple to use colour picker library. Built by 
 Tag: role::developer
 Name: libsparkcolourpicker
 Author: Spark
+
+Package: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm
+Version: 3.7.7-16
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 21888
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza
+Filename: ./debs/com.tigisoftware.filza64bit_3.7.7-16_iphoneos-arm.deb
+Size: 8881852
+MD5sum: 73d36a63b6eb3e6aa9457cf2ce0db54d
+SHA1: 0a6927d6b0a166212c6b53bd74d7a42298a23d7b
+SHA256: 6ca292c316e7a66b3848fac62e0d3c953c08d73c3d8899482d030cb9013e7b0e
+SHA512: dad12f5f63d9dd312f8ca26c029b14b39069737ea18c78e6aa26b9e8dde4f83bfab5f4b3d6851b1b009f2ae4fdb6fbea2e080f13f6137fe8982498db12fa0f79
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
+Name: Filza File Manager 64-bit
+Author: TIGI Software
 
 Package: com.tigisoftware.filza64bit
 Architecture: iphoneos-arm
@@ -1231,6 +1296,24 @@ SHA512: 36d98eef199e8bc010b11bfcddfe3a069768fc3022999c2f7b75e5396e137ae4bf24311c
 Description: Simple library that displays bulletins
 Name: libbulletin
 Author: Elias Limneos
+
+Package: net.limneos.simpleactivationactions
+Architecture: iphoneos-arm
+Version: 0.1-1
+Section: Tweaks
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./debs/net.limneos.simpleactivationactions_0.1-1_iphoneos-arm.deb
+Size: 6074
+MD5sum: 05d719dad71f4c3a872c2f46adfd74c3
+SHA1: eb285ba54be38da827ea65a8a11570fd8c688317
+SHA256: 45e8a716cb2e1897676ab8732e183a68f1f977775b14decc9a624da63e5af3d0
+SHA512: ae87424c248f2ff17780913e8e0e9be5c9c66ffc999543f8ed0f8f4e85e901ea7c6bd9c4179f3d72794cae5d4dd747deab0f2d659bbc94bbc17912aef5d36a46
+Description: Simple Activation Actions
+ Handles StatusBar actions for simple activation events
+Name: SimpleActivationActions
+Author: Elias Limneos <limneoselias@gmail.com>
 
 Package: netskao.antirevoke
 Architecture: iphoneos-arm
