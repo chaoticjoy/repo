@@ -19,6 +19,27 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 dev: rpetrich
 
+Package: apt-key
+Architecture: iphoneos-arm
+Version: 1.8.2.1-1
+Priority: standard
+Section: Packaging
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 64
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: coreutils, libapt
+Conflicts: apt7-key (<<1:0)
+Breaks: apt7-key (<<1:0)
+Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-4), apt7-key
+Filename: ./debs/apt-key_1.8.2.1-1_iphoneos-arm.deb
+Size: 8728
+MD5sum: 605fa2abac45b1cb0852182960f891e3
+SHA1: e3becd1b14734bfaf5092e849fe0e1404d485a3e
+SHA256: b40b8fb3717c5fee956fdb6834ac98279c73f40c8cd522c71ebbd0a7f4c4db6c
+SHA512: 3c3df0d6af6af2dbed5095fb282eb88422f66d55fbdf967775691f307e8ad82890ff7ef9a9206a8153b2719eaf176acb62ddd0bc10dd65b3bedb85cb552ccb35
+Description: repository encryption key management tool
+Name: APT (apt-key)
+
 Package: com.25mao.DouTu
 Architecture: iphoneos-arm
 Version: 2.1-0
@@ -132,6 +153,40 @@ MD5sum: e198cfba9c8184ba8414cf52bf9cc8da
 SHA1: f4ba588592fe8f8b91ccf814c268d4feab1112bb
 SHA256: 74f019a0f3dcb5e6402db481149fd357630f4134f4569bf133d39dabbe31aa45
 SHA512: 1963c47ef1512526681397e35464492706fd38e7f0deeb832b646e181fdf114d2574f2f4c80a44c2a788bf2159ed58b59101c8efe4d99914d40965138929ec9a
+Name: 微信助手-密友
+Author: Mao
+Icon: null
+
+Package: com.25mao.MiYou
+Architecture: iphoneos-arm
+Version: 2.0-3
+Priority: optional
+Section: 微信插件
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.25mao.miyou_2.0-3_iphoneos-arm.deb
+Size: 2398376
+MD5sum: 268d2342f68c967249839b3c345f1f57
+SHA1: 4217780117c5950216a1da33f2be0ecf1e6202f1
+SHA256: 9fe22d20fcec20ba8906058a8a57cf00ba4e2d0573f65edece04751a605f948f
+SHA512: b639883b1572b2d7a9317fdf49924e332e0e2e7053487b6b8b21f8690a60da4031382fc4836e244a413c94a1aeffed685213fa6ba5a88021501ca4730ba61bc5
+Name: 微信助手-密友
+Author: Mao
+Icon: null
+
+Package: com.25mao.MiYou
+Architecture: iphoneos-arm
+Version: 2.0-4
+Priority: optional
+Section: 微信插件
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.25mao.miyou_2.0-4_iphoneos-arm.deb
+Size: 2402432
+MD5sum: 564b268fe3614295324628b41aa81796
+SHA1: d304c9f806a672e2e0112edcd7b2a7808489bd6e
+SHA256: 2d7238d6e2497690ccfe99b3111a53f3fbbc6d9616db16fca1f047426ec7aef6
+SHA512: 5f683ec448db81672a553df0e21d6d759ae20fa8fc4fd897c0c981bfe89280e58fb21cf9861ea7c7995d272ee968ffc9958a14dec5aeb94ff2d08b30648d23a7
 Name: 微信助手-密友
 Author: Mao
 Icon: null
@@ -1236,6 +1291,47 @@ SHA512: fe0a09a183833c3b1c3b6c8e6b486c7fa90a9718f912359225ab2b9ed95d0bbb5399cd69
 Description: pseudo-codesign Mach-O files
 Name: Link Identity Editor
 Author: Jay Freeman (saurik) <saurik@saurik.com>
+
+Package: libapt-pkg5.0
+Architecture: iphoneos-arm
+Version: 1.8.2.1-1
+Priority: required
+Section: Packaging
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 3416
+Provides: libapt-pkg (=1.8.2.1)
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bzip2, lz4, lzma, xz
+Conflicts: apt7-lib (<<1:0), com.mc.xz (<<5.2.4-7)
+Filename: ./debs/libapt-pkg5.0_1.8.2.1-1_iphoneos-arm.deb
+Size: 535322
+MD5sum: 13d537fa6827230787583b928e32b600
+SHA1: 359ba45d3e1131897e179f63d24f14e58dbe546a
+SHA256: aa38b836c298c8e67429d02af39f109acec410ec3f2cf9ea08a6c5412644cb84
+SHA512: 0daa6791591a9763565c49836b82106c7954dfb377f09b015e87f4468ee5d897812034c00f17c0600a5fa432f509aefa71d47c57d4ac164c0407931485c8d65c
+Description: the advanced packaging library from Debian
+Name: APT (libapt-pkg)
+
+Package: libapt
+Architecture: iphoneos-arm
+Version: 1.8.2.1-1
+Priority: required
+Essential: yes
+Section: Packaging
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 3616
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bzip2, dpkg (>= 1.14.25-9), gnupg, gzip, lz4, lzma, xz, libapt-pkg5.0 (>= 1.8.2.1), gnutls
+Conflicts: apt7-lib (<<1:0), apt7 (<<1:0), apt7-key (<<1:0), com.mc.xz
+Breaks: cydia (<< 1.1.10), aptitude (<< 0.4.11.11-6), apt7-lib (<< 1:0)
+Filename: ./debs/libapt_1.8.2.1-1_iphoneos-arm.deb
+Size: 302840
+MD5sum: b6d317427a7176e7dc50b7421d3d5c56
+SHA1: e84dcde6e597f177486bd6ffe43b653abd8fb170
+SHA256: 0b1fa3904b47c374ba2acd826068717a444649b6358bd7ac60c0096593bedafe
+SHA512: f99bea957a5822051844feaf895356ec73225c793369fd65345f586d3964edb548e5665a95ba398e9a616e4f90d22773419a386c518a8533c959157ef326987f
+Description: the advanced packaging library from Debian
+Name: APT (lib)
 
 Package: me.jjolano.shadow
 Architecture: iphoneos-arm
