@@ -72,6 +72,22 @@ SHA512: 27855c5f1a1cf7bb0465adca67d407fdad4012309a4d162c7a91c17cdfa8a2973e5bbe5c
 Name: 微信斗图助手
 Author: Mao
 
+Package: com.25mao.DouTu
+Architecture: iphoneos-arm
+Version: 2.1-3
+Priority: optional
+Section: 微信插件
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.25mao.doutu_2.1-3_iphoneos-arm.deb
+Size: 259274
+MD5sum: 45741275f5d15663870a39451195c57b
+SHA1: 641aeb8a2db577df5a96b7805451b0214fc139f0
+SHA256: 41af45af45e71d2dd868ed5e64fd15d2f4636138ed737aab00453a390373d2f7
+SHA512: 7c0af377e6ab0aef389dfa28d30c19bae9622186aaad9826a4769055a808c5f911c23685381ad5c91e9d39c75412538c7f46273ff88a0ea846c5a45948807f6d
+Name: 微信斗图助手
+Author: Mao
+
 Package: com.25mao.miyou
 Architecture: iphoneos-arm
 Version: 0.2-5
@@ -191,6 +207,40 @@ Name: 微信助手-密友
 Author: Mao
 Icon: null
 
+Package: com.25mao.MiYou
+Architecture: iphoneos-arm
+Version: 2.0-5
+Priority: optional
+Section: 微信插件
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.25mao.miyou_2.0-5_iphoneos-arm.deb
+Size: 2518954
+MD5sum: 8a32896f1c0c6c507367e9f3f093b681
+SHA1: 52ce6b583fc389949fa4fcaa30725406334f51db
+SHA256: a2251326196ad4a3dc618c4756250bed5278ea8525e26cab4dfa5ae283821580
+SHA512: 1a31aeabc006d8fa0769d3e7c38f95d5f32441cc2927b66e520d9e6e5f2effddab76918cf0750aadc73e7e9ba877e9397865ab68c39b94dcb7bb56b52dcc653c
+Name: 微信助手-密友
+Author: Mao
+Icon: null
+
+Package: com.25mao.MiYou
+Architecture: iphoneos-arm
+Version: 2.0-6
+Priority: optional
+Section: 微信插件
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.25mao.miyou_2.0-6_iphoneos-arm.deb
+Size: 2547776
+MD5sum: b4a49a28c2936f422de761cc9f4d9063
+SHA1: 487f25271f42a5070bee662f1aafdf71d98cc3ea
+SHA256: 00734eafe392d0fc1f46fd50170bca79da8c4eba1408485f2437cb63c094889b
+SHA512: 7356f4f47890815f9a85c584238fe627c6cc441fc86c37923d42b708b844b8f934b4a0444ae7e040d71fa356406edc81587f07447d777c60c5f5e533331930db
+Name: 微信助手-密友
+Author: Mao
+Icon: null
+
 Package: com.25mao.sudial
 Architecture: iphoneos-arm
 Version: 0.1-4
@@ -232,6 +282,29 @@ Name: Apple File Conduit "2" (iOS 11+, arm64)
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: cannathea
+
+Package: com.cokepokes.libnotifications
+Architecture: iphoneos-arm
+Version: 0.3
+Priority: optional
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 978
+Depends: firmware (>= 8.0)
+Filename: ./debs/com.cokepokes.libnotifications_0.3_iphoneos-arm.deb
+Size: 81074
+MD5sum: 8d0ae9787cc1379ee044fe655b5f8660
+SHA1: dfe809fed73756bae7ec23bc2ec5c077e63a84a1
+SHA256: 8956026c5da3b3fabaa3fa9be484323fe97639ac9e7144ca839eed10826cd000
+SHA512: 1834f17807472144529256e4a4998d939c9bb1c646cd8de5f7168e59f76fe5706a59e4454a4c69a0069ecdcbe0152968f6667e3083fab8f3318f080caf638506
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
+Description: App notification library.
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Name: libnotifications
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: CokePokes <cokepokes@gmail.com>
+dev: cokepokes
 
 Package: com.crack.cocoatop64
 Architecture: iphoneos-arm
@@ -634,6 +707,21 @@ SHA512: bc66e18aeeef4c7316cb2bd86c97bfdfd6a8595ea1527402a7616ec3976db168f6e86f22
 Name: CallBar XS 简体中文包
 Author: Sandy0、妖刀
 
+Package: com.hk.dra1n.cn
+Architecture: iphoneos-arm
+Version: 1.0
+Section: 嗨-汉化
+Depends: mobilesubstrate
+Filename: ./debs/com.hk.dra1n.cn_1.0_iphoneos-arm.deb
+Size: 3038
+MD5sum: ea568fb285e886ef7c0d214b4381e949
+SHA1: 39644a87bdc3219eff9be1b5c99c931fa1c5651d
+SHA256: 9f7cee03caa3fa38f4ca541d611752f01cd431219cb3bc310403552dcfe84d16
+SHA512: a7ad687dd55cf163a8238dd1f4a2ee5da63f3e498fb85a728356dfba73a3f62407521d73650a2077ac3ba2c551facaa958eff77054471d227f8f6f96c2da85d6
+Description: Dra1n 简体中文包。
+Name: Dra1n 简体中文包
+Author: 妖刀
+
 Package: com.hk.glow.cn
 Architecture: iphoneos-arm
 Version: 0.3-24
@@ -757,6 +845,21 @@ dev: Matt Clarke <matt@incendo.ws>
 Depiction: http://incendo.ws/repo/depictions/com.matchstic.reprovision.html
 Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 
+Package: com.muirey03.libmryipc
+Architecture: iphoneos-arm
+Version: 1.0
+Section: 『知网少年-其他相关』
+Installed-Size: 195
+Filename: ./debs/com.muirey03.libmryipc_1.0_iphoneos-arm.deb
+Size: 12264
+MD5sum: 17fac871580a1b228aff2fad06e96c78
+SHA1: e57a369c5a871e1aed46a116729572bce88c6882
+SHA256: 5c836d84b8af020ad5cf6e7afe01fc5797a4382cd02baaa0b24fd7bff625b02a
+SHA512: e5023cc53032318a1aa27b86008dd7e3587367a61b8eb3478e884a1b3ac1598a99dfecf6839fd48404bde3ee03ce08cac7c55c4e8e68f03dad9a247993d29132
+Name: libMRYIPC
+Author: Muirey03
+Icon: file:///Applications/Cydia.app/Sections/zwqtxg.png
+
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm
 Version: 1.2.2
@@ -799,6 +902,29 @@ Description: Advanced Tweak Configuration!
 Name: Choicy
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Author: opa334 <opa334@protonmail.com>
+
+Package: com.opa334.choicy
+Architecture: iphoneos-arm
+Version: 1.2.4-2
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 784
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist
+Filename: ./debs/com.opa334.choicy_1.2.4-2_iphoneos-arm.deb
+Size: 102600
+MD5sum: c5c6c226218cc2c36cee53ac47c64801
+SHA1: e66818113980a78432941a386f06d9a8f2179533
+SHA256: 5c0d70662bc9249e33b8bf664bca415781f9362675c5521dc9ae7eee6e81da53
+SHA512: 6df002858ffe17b1fa2eb790a037cb63fa53904e53dd32406b8f236521d6e7282c0e22b41837cd509f26961d0a8944161f17466ccc48b6406e5dbba176ba9679
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Description: Advanced Tweak Configuration!
+Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: opa334 <opa334@protonmail.com>
+Name: Choicy
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: opa334
+Icon: file:///Library/PreferenceBundles/ChoicyPrefs.bundle/ChoicyIcon@2x.png
 
 Package: com.rpetrich.powercuff
 Architecture: iphoneos-arm
@@ -998,6 +1124,24 @@ MD5sum: 26960805d35c2a27291286daf40c8a8f
 SHA1: c737c05ed8ad60874de461838dddac5224101249
 SHA256: 8a18d0bec55e03e6f366058a41c4fb8a7cde809141a7ebc38599c577b43acf1d
 SHA512: 59ab220d55e42f6f5caf624685cfe2c97dc688751c5ea13b2468494aec52a974425c534750f60c586ae94d3544e4df534edb31e2fd8b8ede83a36c8d42225564
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
+Name: Filza File Manager 64-bit
+Author: TIGI Software
+
+Package: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm
+Version: 3.8.0-20
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 21632
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza
+Filename: ./debs/com.tigisoftware.filza64bit_3.8.0-20_iphoneos-arm.deb
+Size: 8332186
+MD5sum: 504f22fc6da2a571416ca802ca0a2d71
+SHA1: 3672cb53c03f3307e582a19abbf8fc734ac52b12
+SHA256: 6ee5f9f8093acc8c74c7a231a916664ff4cec203368fc7e093e2caa854e4be2c
+SHA512: a913d303f28b308aa8a9103b99ade7a4ea5a9a0466d31a82b12c8670d889f41f712850884eb326bd65050d5ecdf183348ce660d4e6bba787c6bcd1232922426b
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
 Name: Filza File Manager 64-bit
 Author: TIGI Software
@@ -1774,6 +1918,25 @@ Name: Limneosos
 Author: ReJail <rejail@rejail.ru>
 Depiction: https://rejail.ru/depiction.php?file=limneosos
 SileoDepiction: https://rejail.ru/sileo/depiction.php?file=limneosos
+
+Package: ru.rj.dra1n
+Architecture: iphoneos-arm
+Version: 1.0k
+Section: Tweaks
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 7020
+Depends: mobilesubstrate, firmware (>= 11.0), ws.hbang.common, preferenceloader, com.cokepokes.libnotifications (>= 0.2-2), com.muirey03.libmryipc
+Filename: ./debs/ru.rj.dra1n_1.0k_iphoneos-arm.deb
+Size: 2106066
+MD5sum: 713655946e2218cce6fc05dd83bdc939
+SHA1: fd7bf01758507df69a002549cf870517aee5d475
+SHA256: 438c8b313c349d13a3f5c7120a879f1c778c9962d4cd9393fb5994efc36b4d07
+SHA512: 01b1ee8807fcfe01d1f4d5a4d4b652bf9a5697ad3fd10f478fba2a1d068163e70878684705fd7f8892d1024c9943bac2c4ba969a03ffc1bbfbe07c34571f3a81
+Description: Монитор расхода батареи установленными твиками.
+Name: Dra1n
+Author: MegaDev & Charlie While
+Depiction: https://rejail.ru/depiction.php?file=dra1n
+SileoDepiction: https://rejail.ru/sileo/depiction.php?file=dra1n
 
 Package: ru.rj.glow
 Architecture: iphoneos-arm
