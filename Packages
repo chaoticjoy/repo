@@ -1436,6 +1436,25 @@ Description: pseudo-codesign Mach-O files
 Name: Link Identity Editor
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 
+Package: ldid
+Architecture: iphoneos-arm
+Version: 2:2.1.2.7+g5420cb5q-1
+Priority: optional
+Section: Development
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 464
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist3, libssl1.1.1, dpkg (>= 1.18.25-9)
+Filename: ./debs/ldid_2.1.2.7+g5420cb5q-1_iphoneos-arm.deb
+Size: 52172
+MD5sum: ac3987b37e5e1ba1e2bc46c8fb9c2cf4
+SHA1: ff5185177f94f65f862d2afd3e9f848f525fc130
+SHA256: 5c8869076183ed0f2efb7e2cc526b4ec0695d01529915adbdb3badccc0f53057
+SHA512: 0680e0dd976cc4db31b49fd338cfdee0cb8dadf8a5824630daa3bb23b621f830d2f3e87120199c130286a24e6a827b471f4dfeb6d241bdc330e869afb5ce775f
+Description: pseudo-codesign Mach-O files
+Name: Link Identity Editor
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+
 Package: libapt-pkg5.0
 Architecture: iphoneos-arm
 Version: 1.8.2.1-1
@@ -1476,6 +1495,139 @@ SHA256: 0b1fa3904b47c374ba2acd826068717a444649b6358bd7ac60c0096593bedafe
 SHA512: f99bea957a5822051844feaf895356ec73225c793369fd65345f586d3964edb548e5665a95ba398e9a616e4f90d22773419a386c518a8533c959157ef326987f
 Description: the advanced packaging library from Debian
 Name: APT (lib)
+
+Package: libplist++-dev
+Architecture: iphoneos-arm
+Version: 2.2.1-1
+Priority: standard
+Section: Networking
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 128
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist++3
+Breaks: libplist (<<2.2.0)
+Replaces: libplist (<<2.2.0)
+Filename: ./debs/libplist++-dev_2.2.1-1_iphoneos-arm.deb
+Size: 3338
+MD5sum: 913c8acc252aabb7af92fe93335c4125
+SHA1: af636876dd14b72b49218d4b449d098bc6497a13
+SHA256: db5cd3812fcb607ac7783cfda5bae503d03e3ed0a28d37e4f47a1bbc0cc3b485
+SHA512: 749149b62d37902e09d16efe9a7123f7869fc2d05aef52a56d72a2833c27ecee00dd1204bf14940270f818e1dec9604453a676e1c0bda423a89e3e295bf8f668
+Description: C++ library for handling Apple binary and XML property lists - dev files
+ libplist is a library for reading and writing the Apple binary and XML 
+ property lists format. It's part of the libimobiledevice stack, 
+ providing access to iDevices (iPod, iPhone, iPad ...).
+ .
+ This package contains the development files of the liplist++ library.
+
+Package: libplist++3
+Architecture: iphoneos-arm
+Version: 2.2.1-1
+Priority: standard
+Section: Networking
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 232
+Pre-Depends: dpkg (>= 1.14.25-8)
+Breaks: libplist (<<2.2.0)
+Replaces: libplist (<<2.2.0)
+Filename: ./debs/libplist++3_2.2.1-1_iphoneos-arm.deb
+Size: 17022
+MD5sum: 23db2bc0a1223d30045c030565ac1296
+SHA1: 3e738a5579f5590f0c3c1e713cfe864bc7f80117
+SHA256: 91f978e4d2b9362a96604fe284f54fcb5ecc6fa085368577a48c7c9e5c398533
+SHA512: a8922ffa77410079f20b6a61ad00fcc38507e9b6c2b8c562cbac196bab907c71b05944f72b90f24943b1a016432fb72f46145970e8348f9247f29d0cf89bb0cb
+Description: C++ Library for handling Apple binary and XML property lists
+ libplist is a library for reading and writing the Apple binary and XML 
+ property lists format. It's part of the libimobiledevice stack, 
+ providing access to iDevices (iPod, iPhone, iPad ...).
+ .
+ This library is the C++ implementation of the libplist API.
+
+Package: libplist-dev
+Architecture: iphoneos-arm
+Version: 2.2.1-1
+Priority: standard
+Section: Networking
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 96
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist3
+Breaks: libplist (<<2.2.0)
+Replaces: libplist (<<2.2.0)
+Filename: ./debs/libplist-dev_2.2.1-1_iphoneos-arm.deb
+Size: 6468
+MD5sum: 119ade31ad45683e875223dd65e1f01b
+SHA1: 45dc3af47fe4373ecb78aea534852187940dab3a
+SHA256: 0d5b59f0eba926201093f50924c4e6d49e75ced8ffe73d74bf2a67fa82c141af
+SHA512: 3e7b31bc148e15fefd91973153d8076ae4928c8ccbc980bc2236c2beb294f484c0423504cf3228ebdafbb99821feea8411b5e87e8722dff1161732ee7973a681
+Description: Library for handling Apple binary and XML property lists - dev files
+ libplist is a library for reading and writing the Apple binary and XML 
+ property lists format. It's part of the libimobiledevice stack, 
+ providing access to iDevices (iPod, iPhone, iPad ...).
+ .
+ This package contains the development files of the liplist library.
+
+Package: libplist-utils
+Architecture: iphoneos-arm
+Version: 2.2.1-1
+Priority: standard
+Section: Networking
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 112
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist3
+Breaks: libplist (<<2.2.0)
+Replaces: libplist (<<2.2.0)
+Filename: ./debs/libplist-utils_2.2.1-1_iphoneos-arm.deb
+Size: 4110
+MD5sum: 502ec77e3968312f1f3392b68fc7a9c2
+SHA1: 5fc5714381da93def0300f05bf6e5d4d0c516d36
+SHA256: dc7e148b78f82f3632d34d576fb0fee7d28d087bb3fc9a26bc41b53a92759d0a
+SHA512: 98f3255db19f75b901d9f18c68d16fd9d14e16b1a2b0dc8231aa47d4c3d8f570823a6da92c0ab2ba52fe2f34c8041543a59d185f5fa2dac74f4bbf0c61951330
+Description: Apple property list converter
+ This package containt tools to convert Apple property list files from 
+ binary to XML and vice-versa. It's part of the libimobiledevice stack, 
+ providing access to iDevices (iPod, iPhone, iPad ...).
+
+Package: libplist3
+Architecture: iphoneos-arm
+Version: 2.2.1-1
+Priority: standard
+Section: Networking
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 232
+Pre-Depends: dpkg (>= 1.14.25-8)
+Breaks: libplist (<<2.2.0)
+Replaces: libplist (<<2.2.0)
+Filename: ./debs/libplist3_2.2.1-1_iphoneos-arm.deb
+Size: 24334
+MD5sum: 0dfdbf60cf2061fdacb7634c4a33e627
+SHA1: d8681d8959b82dbe959e31c13d87d3857a3e65d1
+SHA256: 5ecaeb97ca1f9b0aa9f043c6c864c501e128647afd3d58f5f8f6281fd0b548a6
+SHA512: b50965fe8c71705abf2fbfbc99d2b3ea148fcf81e00618c475aadc0eef476878825e4741e759a6f541dc3213dcb4ff0ce54c2986653568809c581c2a4b937ded
+Description: Library for handling Apple binary and XML property lists
+ libplist is a library for reading and writing the Apple binary and XML 
+ property lists format. It's part of the libimobiledevice stack, 
+ providing access to iDevices (iPod, iPhone, iPad ...).
+ .
+ This library is the C implementation of the libplist API.
+
+Package: libplist
+Architecture: iphoneos-arm
+Version: 2.2.1-1
+Priority: standard
+Section: Networking
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 8
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist-dev, libplist3, libplist++-dev, libplist++3, libplist-utils
+Filename: ./debs/libplist_2.2.1-1_iphoneos-arm.deb
+Size: 648
+MD5sum: 1e5880ba01f64220f7865861377639e6
+SHA1: b2e15862270ee7cfbbe21ae3716d3e020d183ef4
+SHA256: 58a3b6c0ae74a76edf6c9db9f20a56ce1f3b638bfff750d4e0295aef23b95293
+SHA512: 7b952830fe2788f8ae6317ec3296078f2e3a45e78512b8a64019014940798f0ca3d6a9f45a9e119fe4dcfa09c8312383838b51e454767b97abf3360692920b29
+Description: Library for handling Apple binary and XML property lists (metapackage)
 
 Package: me.jjolano.shadow
 Architecture: iphoneos-arm
@@ -1932,6 +2084,25 @@ MD5sum: 713655946e2218cce6fc05dd83bdc939
 SHA1: fd7bf01758507df69a002549cf870517aee5d475
 SHA256: 438c8b313c349d13a3f5c7120a879f1c778c9962d4cd9393fb5994efc36b4d07
 SHA512: 01b1ee8807fcfe01d1f4d5a4d4b652bf9a5697ad3fd10f478fba2a1d068163e70878684705fd7f8892d1024c9943bac2c4ba969a03ffc1bbfbe07c34571f3a81
+Description: Монитор расхода батареи установленными твиками.
+Name: Dra1n
+Author: MegaDev & Charlie While
+Depiction: https://rejail.ru/depiction.php?file=dra1n
+SileoDepiction: https://rejail.ru/sileo/depiction.php?file=dra1n
+
+Package: ru.rj.dra1n
+Architecture: iphoneos-arm
+Version: 1.2k
+Section: Tweaks
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 6894
+Depends: mobilesubstrate, firmware (>= 11.0),ws.hbang.common,preferenceloader,com.cokepokes.libnotifications (>= 0.2-2), com.muirey03.libmryipc
+Filename: ./debs/ru.rj.dra1n_1.2k_iphoneos-arm.deb
+Size: 2066708
+MD5sum: 64d74adb8fcbc5b2b47c4d8ccd3b61a8
+SHA1: 4554c24293ff8da9af1b823ff0174f8a114a1266
+SHA256: ab0ce5b86d94980b2dfe3a999b797706f0f166fb1acea93fc7b4d7f94e221afb
+SHA512: 7a9651b2ef235e20d7ae8c26daafa70f6edccfa03411f99c2636dcaee4939150674088ea12bc1f08922650db3b0a9b1f3ee825d66a58981904c540a57c79791a
 Description: Монитор расхода батареи установленными твиками.
 Name: Dra1n
 Author: MegaDev & Charlie While
