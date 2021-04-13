@@ -621,6 +621,40 @@ SHA512: 5aa853c135a38a7d34a5fefde789ef50e4015979cb35bfed0a77147bf067eb36f1127850
 Name: SuDial - T9拨号
 Author: Mao
 
+Package: com.25mao.SuDial
+Architecture: iphoneos-arm
+Version: 0.1-5
+Priority: optional
+Section: 系统插件
+Maintainer: admin@25mao.com
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: ./debs/com.25mao.sudial_0.1-5_iphoneos-arm.deb
+Size: 517914
+MD5sum: 4c1d7c66571317c7c24da5f06e8d552f
+SHA1: 0ca2fc3bc9f67bbe78fb983cdc9861a6080fff00
+SHA256: 80597ffeffe2fcde8cd6a443fce793b68a1a7ef61f6b22aad44c3899fe528554
+SHA512: f198e934daed8ba7604ab9205ae807d5b34217b253907d2b09e3ecf807dd74edd8f7d91ed7f5d59b4a758de53f17836a80d36bc94a4ef0679b283905adeda3ba
+Name: SuDial - T9拨号
+Author: Mao
+Sponsor: admin@25mao.com
+
+Package: com.25mao.wcbg
+Architecture: iphoneos-arm
+Version: 0.1-1
+Priority: optional
+Section: 微信插件
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.25mao.wcbg_0.1-1_iphoneos-arm.deb
+Size: 3712052
+MD5sum: e354516ea2e6c12fdbd67cb3d75cc741
+SHA1: 05ccd5f367b9f1d01a6e0a104a73445c90b82625
+SHA256: ecea3893480f696b0c687d484267d6fef57c7a4d32a20c6e7bb9c6903ce5b602
+SHA512: bbee8729a1b6d5a99c4e6a34aa7294638f7704c9c5eca8a0ef408bd511508922f8c7ffdafef9b028f4bd7a70ca0568ec7ef9bc74184506a77f1f5ca041d04313
+Name: 微信动态背景
+Author: Mao
+Sponsor: admin@25mao.com
+
 Package: com.25mao.WXUrlExpand
 Architecture: iphoneos-arm
 Version: 0.1-1
@@ -749,6 +783,28 @@ Name: Apple File Conduit "2" (iOS 11+, arm64)
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: cannathea
+
+Package: com.captinc.batchomatic
+Architecture: iphoneos-arm
+Version: 4.3.1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 463
+Depends: firmware (>= 11.0), mobilesubstrate, coreutils
+Filename: ./debs/com.captinc.batchomatic_4.3.1_iphoneos-arm.deb
+Size: 65672
+MD5sum: f8c5302959b1c2686d3d4d9d137c757f
+SHA1: ac13c9880c4e77f364c59f9fcd9f2cb9f0b2b5e9
+SHA256: e607d18a02818484f9f84c4b834df2c3bc18e99e446badc75f5ad761298d98ad
+SHA512: 28599dd57208444af6c65c66565bf5bcbb26e95aa15cdc18e9c9f496c99d1569c7cdb800ba1ac7011fdade085ae05bb2ee1f3c1c20c8744a95a3e29fa24b10d4
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=batchomaticDp
+Description: Batch install your tweaks, repos, saved .debs, tweak preferences, and hosts file!
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: Capt Inc <teamcaptinc@gmail.com>
+Name: Batchomatic
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=batchomaticDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: captinc
 
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm
@@ -967,6 +1023,28 @@ Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Icon2: 12.png
 
+Package: com.cydiabc.carbridge13
+Architecture: iphoneos-arm
+Version: 2.0.6k
+Section: 系统
+Maintainer: leftyfl1p
+Installed-Size: 1195
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.16), com.spark.libsparkapplist (>= 1.0.9)
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11
+Filename: ./debs/com.cydiabc.carbridge13_2.0.6k_iphoneos-arm.deb
+Size: 312014
+MD5sum: 14904e71c2da3083de65adf3563936b0
+SHA1: 341ffd30b6842eff91209dc2b06a803d7db32df2
+SHA256: fb300f66108e0e9bc526fceb3e777fc485cf93e6c1393fb0a0b5caaf4addf048
+SHA512: c957ee798c72fa476d64c1e3f19e8b0d3ed055903d4ea2e9ada67bc8aed8cfb653adb04ae8fe60368b307ccd8640a72d5acf1c53f11d90ce3d3c719fa726fce6
+Description: 解锁CarPlay App限制
+A12: 1
+Name: CarBridge (iOS 13)汽车互联
+Author: leftyfl1p
+Sponsor: Ai-小苹果™
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 12.png
+
 Package: com.cydiabc.ccmodulespro
 Architecture: iphoneos-arm
 Version: 1.1.1
@@ -984,6 +1062,27 @@ Description: 提高控制中心的可用性，添加电源操作、快捷联系�
 A12: 1
 Name: CCModules Pro控制中心增强
 Author: jailbreak365
+Sponsor: Ai-小苹果
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 12.png
+
+Package: com.cydiabc.choicy
+Architecture: iphoneos-arm
+Version: 1.3.4
+Section: 系统
+Maintainer: Ai-小苹果
+Installed-Size: 868
+Depends: mobilesubstrate, applist, preferenceloader
+Filename: ./debs/com.cydiabc.choicy_1.3.4_iphoneos-arm.deb
+Size: 118042
+MD5sum: 286206fecf06415e2d09669996662c05
+SHA1: b49e1f669021eb0013eac601a266dda25f78c26e
+SHA256: 32977a93c29eca9bad237fce93450379df2a226b9bf2c46c39579bf78ff130fb
+SHA512: d934142e48bdd885cd113ca12adc056586bed5c2a8725689a49fb3dfaca20da547b45e3fdf30af0c87d02b6f9294ae028ec5de5ea9a9bfaed24821b602a0d33a
+Description: 更准确的屏蔽越狱检测，全功能完整汉化版，具体效果预览截图
+A12: 1
+Name: Choicy越狱屏蔽
+Author: opa334
 Sponsor: Ai-小苹果
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Icon2: 12.png
@@ -1203,6 +1302,31 @@ MD5sum: df1b6fad2c257285057e8a06c3da7023
 SHA1: d0d77d5330e242311e27665e125a7efd17dc3e2b
 SHA256: 6203236673f016c306dfc7f708773d4d1febb676f84d7ce39626163e8dd6aacc
 SHA512: 6cea074a00e1b7465e6c41ec08bf2f80f5c1c0f9d0527e9c63385642198136ad942176494e8ccf10bef077b3a68ba29f4e5bfb73052b342c6ee915c5b73ecd9f
+Description: 控制中心增加关机/重新启动/ldrestart /安全模式/重新启动/uicache/Wi-Fi IP, 全局 IP, 运行时间等，具体效果预览截图
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+A12: 1
+Name: PowerSelector关机增强
+Author: ichitaso
+Sponsor: Ai-小苹果
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Icon2: 12.png
+
+Package: com.cydiabc.powerselector11
+Architecture: iphoneos-arm
+Version: 1.3.3
+Section: 系统
+Maintainer: Ai-小苹果
+Installed-Size: 2424
+Pre-Depends: firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
+Replaces: com.ichitaso.powerselector11
+Filename: ./debs/com.cydiabc.powerselector11_1.3.3_iphoneos-arm.deb
+Size: 215908
+MD5sum: 6f586b031f0c3bfac0a99de612f71a12
+SHA1: 909452153cd528355bfbfa789b90e0114be4093a
+SHA256: d3c5a37e91ee78bc7d739052df9716a2df4906c1a43e69fea955141418555cc6
+SHA512: 1a03db28729e6240af0fc200c9200437aae10ff48dbaaa45417aedfdc8ef8816a46a345125c63ce8e1d94c53bcc83953e6df6b7ed6aee28f10cca5e1114dcb46
 Description: 控制中心增加关机/重新启动/ldrestart /安全模式/重新启动/uicache/Wi-Fi IP, 全局 IP, 运行时间等，具体效果预览截图
 Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
 A12: 1
@@ -1738,6 +1862,36 @@ SHA512: 74ada007633988933fa98301aa5e129f940f41208e673a264452b2c57a7ab471ae50ecd1
 Name: AudioRecorder XS 简体中文包
 Author: 黑客源/嗨客源
 
+Package: com.hk.audiorecorderxs.cn
+Architecture: iphoneos-arm
+Version: 3.7-44
+Section: 嗨-汉化
+Maintainer: 黑客源&嗨客源
+Depends: mobilesubstrate
+Filename: ./debs/com.hk.audiorecorderxs.cn_3.7-44_iphoneos-arm.deb
+Size: 16718
+MD5sum: 12fb8c9e2b0dd210644d2223c830cd62
+SHA1: c75625911acd81a83651f9cc75dde313f87be0d8
+SHA256: 763a5a405d88d3a4edbe02c5cfc16d694b33258d286046f3c5bdb41076c9b7ae
+SHA512: ff540a3212ae52e7fb213b42c6f52e3840d3f634c112bb2e7dc5895e2d2a8ab1aa74e3e3b52fc427c3e68e9f1fc5127be1fd888266ecc0ed4f5005e0717372e1
+Name: AudioRecorder XS 简体中文包
+Author: Sandy0&妖刀
+
+Package: com.hk.audiorecorderxs.cn
+Architecture: iphoneos-arm
+Version: 3.7-45
+Section: 嗨-汉化
+Maintainer: 黑客源&嗨客源
+Depends: mobilesubstrate
+Filename: ./debs/com.hk.audiorecorderxs.cn_3.7-45_iphoneos-arm.deb
+Size: 17380
+MD5sum: c519e4753e9ad017cb55fb8ee6ca0d91
+SHA1: 9dd4af943aa64b745667888c636572c060bb783f
+SHA256: 12b668cd1116678d894105455f82792e2bfda6fc781f53faee57b35a2ca9ac12
+SHA512: 8946263c0ae4fce6fd18d163a665e029125fd9c2db59ac6689a19648a85736501f7d427f531e5a5c1f806b6e5e36e48f40e5ed43feab92b5a22ec2257eeb4946
+Name: AudioRecorder XS 简体中文包
+Author: Sandy0&妖刀
+
 Package: com.hk.bilibilicrack
 Architecture: iphoneos-arm
 Version: 0.2-1
@@ -2149,6 +2303,31 @@ dev: opa334
 
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm
+Version: 1.3.3
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 379
+Provides: com.ioscreatix.silo
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport_1.3.3_iphoneos-arm.deb
+Size: 55346
+MD5sum: 7cc286a44def6661d51cf8238c62dff6
+SHA1: 77a7c3ef89602b5956fcc52d9f0225c65c5f7bb1
+SHA256: a30d91f1314a605b8811eb4d00089f2bb0510833ebdf6d1cf3b1bbf2a7135aa4
+SHA512: 8759278aa67d034792ebb30e56f4895774bb95b391eb6ec9eacf64590cadcb9d1ea41432b9ec3c682d1d70940b18140221adbf1d45b2b495b3fe9f4a0afa8f6e
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Description: Support tweak for CC modules!
+Tag: purpose::extension
+Author: opa334 <opa334@protonmail.com>
+Name: CCSupport
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: opa334
+
+Package: com.opa334.ccsupport
+Architecture: iphoneos-arm
 Version: 1.3
 Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -2350,6 +2529,27 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: opa334
 Icon: file:///Library/PreferenceBundles/ChoicyPrefs.bundle/ChoicyIcon@2x.png
+
+Package: com.opa334.libundirect
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 269
+Filename: ./debs/com.opa334.libundirect_1.1_iphoneos-arm.deb
+Size: 8330
+MD5sum: 6f292d75aca6e41e3c46f932941b4cec
+SHA1: 020a504bda4d1024b8f676b47c22e38ff209bd4f
+SHA256: 6b4542d8e80ed38f86d55562a586625ba4fc5e3cd44d1398d5dc33fd757819e4
+SHA512: 6b5fb07fa7eafdba58c5f3281bf6c8cc7d83b753f7a87eaded6616be7cb5d908bd76fce2d2e016b2099bbaa716d630670d086286723f464129c1a042ded0afef
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libundirectDp
+Description: Patchfinder and rebinder for objc_direct methods
+Tag: purpose::library
+Author: opa334 <opa334@protonmail.com>
+Name: libundirect
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libundirectDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: opa334
 
 Package: com.rpetrich.powercuff
 Architecture: iphoneos-arm
@@ -2725,6 +2925,42 @@ Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This sp
 Name: Filza File Manager 64-bit
 Author: TIGI Software
 
+Package: com.tigisoftware.filza
+Architecture: iphoneos-arm
+Version: 3.8.2-4
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 32092
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Filename: ./debs/com.tigisoftware.filza_3.8.2-4_iphoneos-arm.deb
+Size: 12948918
+MD5sum: 8942b83014cda56afbb56e70f8e3b888
+SHA1: 4e40240890918f2a7f677da13fb6ef7c7cc21702
+SHA256: d8fe5a61e3d0399135427cec4af87131970cd5244abc8146fcded8dc11b895a6
+SHA512: 6f931d29c296024a9af9b283a16e54ef5b6b50f8203079ec11203829b1c58950bf9cc311123b24c702f30cf2cc73bdbee4e87d693d28166ab8db09daa311909e
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Name: Filza File Manager
+Author: TIGI Software
+
+Package: com.tigisoftware.filza
+Architecture: iphoneos-arm
+Version: 3.8.2-6
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 32108
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Filename: ./debs/com.tigisoftware.filza_3.8.2-6_iphoneos-arm.deb
+Size: 12949488
+MD5sum: 54e37794629466440fd2ed735c239fe3
+SHA1: a70a1bcdb5e307f77a0dd032324d9805889f5e1f
+SHA256: c52e40a3e23715c80bb0b44516500e98ff86fbe1123f3d0a23ad28877bcea0ec
+SHA512: a5af9ba358fe6dacafba4331e0da9dd6674cca7328b5e6536856a1972c3c499edad5345a86965848813e0af50d911d6433bc13a24e873a1c277d42145cf82643
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Name: Filza File Manager
+Author: TIGI Software
+
 Package: com.udevs.perseus
 Architecture: iphoneos-arm
 Version: 1.1.3
@@ -3073,6 +3309,27 @@ MD5sum: 04fcba9dbc28533e6ef63655f72bd88f
 SHA1: 7448c4c13f7dc447cb930d45c0407e623cadc931
 SHA256: 6e6e1660f58dea70ecac157b606706ad9950629bf83623b1a3afeedcbd939dee
 SHA512: 2c190ef1d3a92137e83dca8e240dfd40b7ffe71b6f1f51e7e9abcb0abefac47571dbbd0072328a26ad085ae0650b386e6aac22a0ff28e224b8f45a0ff872d1a4
+Description: Re-sign applications on your device
+Name: ReProvision Reborn
+Author: Soh Satoh, Matt Clarke
+dev: Matt Clarke
+Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
+
+Package: jp.soh.reprovision
+Architecture: iphoneos-arm
+Version: 0.6.2~release
+Priority: optional
+Section: System
+Maintainer: Soh Satoh
+Provides: com.matchstic.Extender-Installer, com.matchstic.reprovision
+Depends: firmware (>= 9.0)
+Replaces: com.matchstic.Extender-Installer, com.matchstic.reprovision
+Filename: ./debs/jp.soh.reprovision_0.6.2~release_iphoneos-arm.deb
+Size: 14667432
+MD5sum: d1f99bfa8aa62d5281416c973c9d12ce
+SHA1: d5c24c64df51f891a1e94b8d45bdeb997650d79f
+SHA256: 48b09b6d92e45ccd49c4249a025592247c9283342561b3615d532acc16844c43
+SHA512: e4a18a564ad8a903b8f150a48f77c84cf0e22b23ed72b9532fd69b67a2fe8aebaf4be8458cb65b4bf1822343fee3b943d9648b1ebe778a8b949a96879d3f868d
 Description: Re-sign applications on your device
 Name: ReProvision Reborn
 Author: Soh Satoh, Matt Clarke
@@ -3664,6 +3921,29 @@ Description: Simple Activation Actions
 Name: SimpleActivationActions
 Author: Elias Limneos <limneoselias@gmail.com>
 
+Package: net.myxxdev.mybloxx
+Architecture: iphoneos-arm
+Version: 2.040221-13
+Section: Networking
+Maintainer: MYXXdev
+Installed-Size: 1304
+Pre-Depends: dpkg
+Depends: com.opa334.ccsupport, com.opa334.libundirect, mobilesubstrate, preferenceloader, ws.hbang.common
+Conflicts: com.ceadd.blockyoux-procursus, com.ceadd.blockyoux, com.ceadd.blockyou10, com.ceadd.blockyou11, com.ceadd.blockyou12, com.droomone.tabblocker, com.git-anish.mdnsrestart, com.nathanaccidentally.mdnsflush, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic, com.p2kdev.safariblocker, com.reddestdream.minimalhostsblocker, com.reddestdream.mhbcb, com.thireus.hostscleaner, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblockermegaipv4, com.thireus.untrustedhostsblockermega, com.thireus.untrustedhostsblockerexperimental, net.myxxdev.issupervisedbegone, net.myxxdev.mybloxx11, net.myxxdev.mybloxxhipfix, net.myxxdev.mybloxxupdater
+Replaces: com.droomone.tabblocker, com.p2kdev.safariblocker, net.myxxdev.issupervisedbegone, net.myxxdev.mybloxx11, net.myxxdev.mybloxxhipfix, net.myxxdev.mybloxxupdater
+Filename: ./debs/net.myxxdev.mybloxx_2.040221-13_iphoneos-arm.deb
+Size: 212562
+MD5sum: 175b1ecdedc60daaacc5c3f0de9ff55c
+SHA1: 597738e847817574037a1bce45c9b5b777454566
+SHA256: 06bb12ad267b84628321585830fde835be37de3c64dda8cc6ceb3a984076ff48
+SHA512: 3bbc736da6d51f38f38a343592581e2f1af4c843ed44ccee1fc49f45519ebdc02c96a9610513dcdb8a1d974be83cccf21d308e8aad326dfdbd2b79afc6650ea3
+Description: The most advanced iOS xBlocker!
+Name: MYbloXX for iOS (13+)
+Author: MYXXdev
+Icon:
+Depiction: https://myxxdev.github.io/depictions/MYbloXXforiOS/MYbloXXforiOS.html
+SileoDepiction: https://myxxdev.github.io/depictions/MYbloXXforiOS/MYbloXXforiOS.html
+
 Package: netskao.antirevoke
 Architecture: iphoneos-arm
 Version: 2.1-1
@@ -3943,6 +4223,27 @@ SHA512: ad0a4aa096ecf189c13586bc509fcb04dfa5afbc957c1d44b1ca3e0ced5b67078547dc43
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
 Description: load preferences in style
 Tag: role::hacker, purpose::library, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Name: PreferenceLoader
+Author: Sam Bingner <maintainer@sbdhi.com>
+dev: dustinhowett
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+
+Package: preferenceloader
+Architecture: iphoneos-arm
+Version: 2.2.6
+Section: System
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 526
+Depends: mobilesubstrate
+Filename: ./debs/preferenceloader_2.2.6_iphoneos-arm.deb
+Size: 36414
+MD5sum: 551c39b9d6d58be5ad82e81a59a1715f
+SHA1: c1d547036234756c5e75a633393d4ffa791b1126
+SHA256: 335fff25ff13021889ba856ce84fbc23ba25569f1c6cc65a3e113b433b1ed60f
+SHA512: 8b1010e1bc02c722edf248cb4ad74ed03990334f290686450eff2d2354603bc6148298c478e98cf270ae875a2f2119598e3ba4cdfd0e0b1c6c298596ac8d7be3
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
 Name: PreferenceLoader
 Author: Sam Bingner <maintainer@sbdhi.com>
 dev: dustinhowett
